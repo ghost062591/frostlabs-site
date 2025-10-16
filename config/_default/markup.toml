@@ -1,23 +1,36 @@
-# -- Markup --
-# These settings are required for the theme to function.
-
 [goldmark]
-  [goldmark.parser]
-    wrapStandAloneImageWithinParagraph = false
-
-  [goldmark.renderer]
-    unsafe = true
-
   [goldmark.extensions]
-    [goldmark.extensions.passthrough]
-      enable = true
-      [goldmark.extensions.passthrough.delimiters]
-        block = [['\[', '\]'], ['$$', '$$']]
-        inline = [['\(', '\)']]
+    definitionList = true
+    footnote = true
+    linkify = true
+    linkifyProtocol = 'https'
+    strikethrough = true
+    table = true
+    taskList = true
+    typographer = true
+  [goldmark.parser]
+    autoHeadingID = true
+    autoHeadingIDType = 'github'
+    [goldmark.parser.attribute]
+      block = true
+      title = true
+  [goldmark.renderer]
+    hardWraps = false
+    unsafe = true
+    xhtml = false
 
 [highlight]
+  codeFences = true
+  guessSyntax = true
+  hl_Lines = ''
+  lineNoStart = 1
+  lineNos = false
+  lineNumbersInTable = true
   noClasses = false
+  style = 'github'
+  tabWidth = 4
 
 [tableOfContents]
-  startLevel = 2
   endLevel = 4
+  ordered = false
+  startLevel = 2
