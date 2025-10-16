@@ -11,7 +11,6 @@ tags:
 description: Detailed Post Explaining my process so far launching a blog site.
 categories:
   - web-development
-feature: /img/site/background.png
 ---
 
 ---
