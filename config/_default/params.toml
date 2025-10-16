@@ -1,7 +1,7 @@
 colorScheme = "neon"
 defaultAppearance = "dark"
 autoSwitchAppearance = true
-
+customCSS = ["css/custom.css"]
 enableSearch = true
 enableCodeCopy = true
 

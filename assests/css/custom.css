@@ -1,0 +1,15 @@
+.home-hero, .hero-background {
+  background-image: url('/images/site/background-no-snowflakes.png') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+}
+
+/* Ensure content is readable over your background */
+.prose, .article-content {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+  padding: 2rem;
+  color: white;
+}
