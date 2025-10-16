@@ -1,0 +1,32 @@
+backend:
+  name: github
+  repo: ghost062591/frostlabs-site
+  branch: main
+
+media_folder: "static/images"
+public_folder: "/images"
+
+collections:
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "content/blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "projects"
+    label: "Projects" 
+    folder: "content/projects"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Tech Stack", name: "tech", widget: "list"}
+      - {label: "Demo URL", name: "demo", widget: "string", required: false}
+      - {label: "GitHub URL", name: "github", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
