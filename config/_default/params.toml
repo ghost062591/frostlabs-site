@@ -12,7 +12,8 @@ enableCodeCopy = true
   showRecentItems = 5
 
 [header]
-  layout = "basic"
+layout = "fixed-fill"
+background = "/images/site/background-no-snowflakes.png"
 
 [footer]
   showMenu = true
@@ -28,7 +29,7 @@ enableCodeCopy = true
   showDateUpdated = false
   showAuthor = true
   showHero = false
-  heroStyle = "basic"
+  heroStyle = "background"
   showBreadcrumbs = false
   showDraftLabel = true
   showEdit = false
