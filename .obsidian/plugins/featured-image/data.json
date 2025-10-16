@@ -1,0 +1,38 @@
+{
+  "showNotificationsOnUpdate": true,
+  "frontmatterProperty": "feature",
+  "thumbnailsFolder": "thumbnails",
+  "excludedFolders": [],
+  "createResizedThumbnail": true,
+  "resizedFrontmatterProperty": "thumbnail",
+  "maxResizedWidth": 256,
+  "maxResizedHeight": 144,
+  "fillResizedDimensions": false,
+  "resizedVerticalAlign": "top",
+  "resizedHorizontalAlign": "center",
+  "showAdvancedSettings": true,
+  "mediaLinkFormat": "plain",
+  "useMediaLinks": false,
+  "onlyUpdateExisting": false,
+  "keepEmptyProperty": false,
+  "preserveTemplateImages": false,
+  "requireExclamationForYouTube": true,
+  "downloadExternalImages": true,
+  "downloadYoutubeThumbnails": true,
+  "imageExtensions": [
+    "png",
+    "jpg",
+    "jpeg",
+    "gif",
+    "webp"
+  ],
+  "captureVideoPoster": true,
+  "videoExtensions": [
+    "mp4",
+    "mov",
+    "m4v",
+    "webm"
+  ],
+  "debugMode": false,
+  "dryRun": false
+}
