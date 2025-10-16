@@ -15,7 +15,6 @@ feature: assets/img/site/background-no-snowflakes.png
 ---
 
 ---
-# From Self-Hosted Complexity to GitHub Pages Simplicity: Building a Hugo Site with Blowfish
 
 Building a personal blog should be straightforward, but like many homelab enthusiasts, I initially overcomplicated things. What started as a simple Hugo site deployment turned into a learning experience about when to embrace simplicity over self-hosted complexity.
 
