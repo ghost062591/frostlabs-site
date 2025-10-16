@@ -53,6 +53,7 @@ background = "/images/site/background-no-snowflakes.png"
   showScrollToTop = true
 
 [article]
+  background = "/images/site/background-no-snowflakes.png"
   showDate = true
   showViews = false
   showLikes = false
