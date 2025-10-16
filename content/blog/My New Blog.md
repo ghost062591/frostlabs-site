@@ -1,7 +1,7 @@
 ---
 title: '"From Self-Hosted Complexity to GitHub Pages Simplicity: Building a Hugo Site with Blowfish"'
 date: 2025-10-16T14:50:55Z
-draft: true
+draft: false
 tags:
   - hugo
   - blowfish
@@ -34,7 +34,6 @@ The plan made sense on paper. I already had the infrastructure, so why not use i
 
 The initial Hugo setup went smoothly:
 
-bash
 
 ```bash
 hugo new site frostlabs-site
@@ -59,7 +58,6 @@ The complexity started creeping in when I attempted to deploy this to my Docker 
 
 ### Docker Stack Configuration
 
-yaml
 
 ```yaml
 version: '3.8'
@@ -67,37 +65,35 @@ services:
   frostlabs-site:
     image: nginx:alpine
     volumes:
-      - /mnt/swarm-data/webfiles/production/frostlabs-site-content:/usr/share/nginx/html:ro
+      - path/to/webfiles:/usr/share/nginx/html:ro
     networks:
       - homelab
     deploy:
       labels:
         - traefik.enable=true
         - traefik.docker.network=homelab
-        - traefik.http.routers.frostlabs.rule=Host(`blog.frostlabs.me`)
-        - traefik.http.routers.frostlabs.entrypoints=websecure
-        - traefik.http.routers.frostlabs.tls=true
-        - traefik.http.routers.frostlabs.tls.certresolver=cloudflare
-        - traefik.http.services.frostlabs.loadbalancer.server.port=80
+        - traefik.http.routers.frostlabs-sites.rule=Host(`blog.frostlabs.me`)
+        - traefik.http.routers.frostlabs-site.entrypoints=websecure
+        - traefik.http.routers.frostlabs-site.tls=true
+        - traefik.http.routers.frostlabs-site.tls.certresolver=
+        - traefik.http.services.frostlabs-site.loadbalancer.server.port=80
 ```
 
 ### File Permission Headaches
 
 Getting the built Hugo files from my local machine to the shared storage with correct permissions became unnecessarily complex:
 
-bash
 
 ```bash
 hugo --minify
-sudo cp -r public/* /mnt/swarm-data/webfiles/production/frostlabs-site-content/
-sudo chown -R 33:33 /mnt/swarm-data/webfiles/production/frostlabs-site-content
+sudo cp -r public/* path/to/webfiles
+sudo chown -R 33:33 path/to/webfiles
 ```
 
 ### Decap CMS Authentication Issues
 
 The biggest pain point was getting Decap CMS to work with GitHub OAuth in a self-hosted environment. Despite multiple attempts with different configurations:
 
-yaml
 
 ```yaml
 backend:
@@ -105,7 +101,7 @@ backend:
   repo: ghost062591/frostlabs-site
   branch: main
   auth_type: implicit
-  app_id: Ov23liud7M1QpMuqZ6c8
+  app_id: (client-ID)
 ```
 
 The authentication consistently failed with "Not Found" errors, likely due to CORS issues or GitHub OAuth's restrictions with non-standard hosting environments.
@@ -118,7 +114,6 @@ The migration was surprisingly simple:
 
 ### GitHub Actions Workflow
 
-yaml
 
 ```yaml
 name: Deploy Hugo site to Pages
@@ -169,7 +164,7 @@ jobs:
 
 Setting up the custom domain was straightforward:
 
-1. Add CNAME record in Cloudflare: `blog → ghost062591.github.io`
+1. Add CNAME record in Cloudflare: `blog → (user).github.io`
 2. Create `static/CNAME` file with `blog.frostlabs.me`
 3. Update `baseURL` in `hugo.toml`
 4. Enable custom domain in GitHub Pages settings
@@ -183,8 +178,6 @@ Rather than fighting with web-based CMS systems, I opted for a local-first appro
 I created templates for each content type in the `Templates/` folder:
 
 **Blog Post Template:**
-
-markdown
 
 ```markdown
 ---
@@ -222,12 +215,10 @@ One key discovery was understanding Blowfish's file structure conventions. The b
 
 Blowfish expects assets in `assets/img/` rather than `static/images/`. Once I moved the background image to the correct location:
 
-toml
-
 ```toml
 [homepage]
 layout = "background"
-homepageImage = "img/background-no-snowflakes.png"
+homepageImage = "img/IMAGE.jpg"
 ```
 
 The Artist template background display worked perfectly.
@@ -240,7 +231,6 @@ A few configuration issues emerged during deployment:
 
 GitHub Actions initially failed due to deprecated configuration:
 
-toml
 
 ```toml
 # Old (deprecated in Hugo v0.151.0)
@@ -255,7 +245,6 @@ pagerSize = 20
 
 The workflow needed updates for deprecated action versions:
 
-yaml
 
 ```yaml
 # Updated to latest stable versions
