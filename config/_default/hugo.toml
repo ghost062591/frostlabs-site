@@ -1,7 +1,10 @@
 # -- Site Configuration --
 # Refer to the theme docs for more details about each of these parameters.
 # https://blowfish.page/docs/getting-started/
-
+baseURL = "https://ghost062591.github.io/frostlabs-site"
+languageCode = "en"
+title = "FrostLabs"
+theme = "blowfish"
 # theme = "blowfish" # UNCOMMENT THIS LINE
 # baseURL = "https://your_domain.com/"
 defaultContentLanguage = "en"
