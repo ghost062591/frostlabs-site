@@ -2,6 +2,8 @@ backend:
   name: github
   repo: ghost062591/frostlabs-site
   branch: main
+  auth_type: implicit
+  app_id: Ov23lidH3cAV2XxZMobc
 
 media_folder: "static/images"
 public_folder: "/images"
