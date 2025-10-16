@@ -11,7 +11,7 @@ tags:
 description: Detailed Post Explaining my process so far launching a blog site.
 categories:
   - web-development
-feature: assets/img/site/background-no-snowflakes.png
+feature: img/site/Gemini_Generated_Image_7ijmfo7ijmfo7ijm.png
 ---
 
 ---
