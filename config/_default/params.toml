@@ -7,13 +7,13 @@ enableCodeCopy = true
 
 [homepage]
   layout = "background"
-  homepageImage = "/images/site/background-no-snowflakes.png"
+  homepageImage = "images/site/background-no-snowflakes.png"
   showRecent = true
   showRecentItems = 5
 
 [header]
 layout = "fixed-fill"
-background = "/images/site/background-no-snowflakes.png"
+background = "images/site/background-no-snowflakes.png"
 
 [footer]
   showMenu = true
