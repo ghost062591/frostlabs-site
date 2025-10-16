@@ -42,26 +42,6 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
 [header]
 layout = "basic"
 
-# Main menu in header
-[[main]]
-name = "Blog"
-pageRef = "blog"
-weight = 10
-
-[[main]]
-name = "Projects" 
-pageRef = "projects"
-weight = 20
-
-[[main]]
-name = "Homelab"
-pageRef = "homelab"
-weight = 30
-
-[[main]]
-name = "Gallery"
-pageRef = "gallery"
-weight = 40
 
 [footer]
   showMenu = true
