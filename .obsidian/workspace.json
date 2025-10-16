@@ -193,8 +193,21 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "9d5bf154bbc7012e",
+  "active": "1a4044e1f09da8a3",
   "lastOpenFiles": [
+    "static/images/site/background-no-snowflakes.png",
+    "static/images/site/Unconfirmed 299343.crdownload",
+    "static/images/site/Gemini_Generated_Image_7ijmfo7ijmfo7ijm.png",
+    "static/images/site/Unconfirmed 420571.crdownload",
+    "static/images/site/background.png",
+    "static/images/site/Unconfirmed 344689.crdownload",
+    "static/images/homelab",
+    "static/images/New folder",
+    "static/images/gallery",
+    "static/images/projects",
+    "static/images/blog",
+    "static/images/site",
+    "static/images",
     "content/blog/My New Blog.md",
     "content/gallery/Untitled.md",
     "Untitled Kanban.md",
@@ -202,7 +215,6 @@
     "Templates/Gallery.md",
     "Templates/Homelab.md",
     "Templates/Project.md",
-    "Templates/Blog Post.md",
-    "Templates"
+    "Templates/Blog Post.md"
   ]
 }
