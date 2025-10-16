@@ -7,7 +7,7 @@ enableCodeCopy = true
 
 [homepage]
   layout = "background"
-  homepageImage = ""
+  homepageImage = "/images/site/background-no-snowflakes.png"
   showRecent = true
   showRecentItems = 5
 
