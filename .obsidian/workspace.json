@@ -13,29 +13,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/gallery/Untitled.md",
+                "file": "content/blog/My New Blog.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "My New Blog"
             }
           }
         ]
       },
       {
-        "id": "b8030d529433515d",
+        "id": "1fa7c58f44dbbb99",
         "type": "tabs",
         "children": [
           {
-            "id": "f0f40e122b4c931f",
+            "id": "9f97ef15ed97e070",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "content/blog/My New Blog.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "My New Blog"
@@ -193,8 +193,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "1a4044e1f09da8a3",
+  "active": "9d5bf154bbc7012e",
   "lastOpenFiles": [
+    "content/gallery/Untitled.md",
     "assets/img/stock/traffic.svg",
     "assets/img/stock/ripples.svg",
     "assets/img/stock/rain.svg",
@@ -205,7 +206,6 @@
     "assets/img/stock/blowfish_logo.png",
     "assets/img/stock/blowfish_banner_transparent.png",
     "assets/img/stock/blowfish_banner.png",
-    "assets/img/stock/background.svg",
     "assets/img/stock",
     "assets/img/New folder",
     "assets/img/site",
@@ -217,7 +217,6 @@
     "assets/lib/katex/fonts/KaTeX_Typewriter-Regular.woff",
     "assets/lib/katex/fonts/KaTeX_Typewriter-Regular.ttf",
     "content/blog/My New Blog.md",
-    "content/gallery/Untitled.md",
     "Untitled Kanban.md",
     "content/blog/_index.md",
     "Templates/Gallery.md",
