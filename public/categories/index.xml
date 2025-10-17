@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on FrostLabs</title>
+    <link>https://ghost062591.github.io/frostlabs-site/categories/</link>
+    <description>Recent content in Categories on FrostLabs</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© 2025 FrostLabs</copyright>
+    <lastBuildDate>Thu, 16 Oct 2025 14:50:55 +0000</lastBuildDate>
+    <atom:link href="https://ghost062591.github.io/frostlabs-site/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Web-Development</title>
+      <link>https://ghost062591.github.io/frostlabs-site/categories/web-development/</link>
+      <pubDate>Thu, 16 Oct 2025 14:50:55 +0000</pubDate>
+      <guid>https://ghost062591.github.io/frostlabs-site/categories/web-development/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
