@@ -5,7 +5,11 @@
   "couchDB_USER": "",
   "couchDB_PASSWORD": "",
   "couchDB_DBNAME": "",
+<<<<<<< HEAD
+  "liveSync": false,
+=======
   "liveSync": true,
+>>>>>>> 3bdcb50a7805fd3dd52fd4dc7d9df09c9ae9c383
   "syncOnSave": false,
   "syncOnStart": false,
   "savingDelay": 200,
@@ -52,7 +56,11 @@
   "syncInternalFilesIgnorePatterns": "\\/node_modules\\/, \\/\\.git\\/, \\/obsidian-livesync\\/",
   "syncInternalFilesTargetPatterns": "",
   "syncInternalFilesInterval": 60,
+<<<<<<< HEAD
+  "additionalSuffixOfDatabaseName": "bb1ed1f7dfbb1009",
+=======
   "additionalSuffixOfDatabaseName": "09f14cd63da82d78",
+>>>>>>> 3bdcb50a7805fd3dd52fd4dc7d9df09c9ae9c383
   "ignoreVersionCheck": false,
   "lastReadUpdates": 0,
   "deleteMetadataOfDeletedFiles": false,
@@ -68,7 +76,11 @@
   "syncAfterMerge": false,
   "configPassphraseStore": "",
   "encryptedPassphrase": "",
+<<<<<<< HEAD
+  "encryptedCouchDBConnection": "%$def32u6pGmsiZewq4Xy4ulR1JbiXyUEKo1WsImZlBEVUZUeFlilCYTrkIRsCXPTxMFL7TTqj3zLEQ7bJdEbS2QYHhXxLtL/ekxDK7rXzt1KAfxX+smTXflatmrYVyfSohADgQuzvPdjiIbC/DGFho/Se4ok0evOLT4duL4xuqTYOTLM519u/oX0bkJOuhKZsJr4ayCFMSZi4zlhF9NrJHmEYG6qt/NrNXJjZfa9jnjQFg/axUJqBuujmm3NhRwVGUBibvo5q0Gs9Y6nThsJxunF/1jplWYFI4u/J7Y2v8vWITh7kwUSU/TZO9WnXVDZH3nMs13ESNJFkDYq5W2bxps+rLVCHimXFHGDhCmFdsa+flAA9HCuHSEyRJJMKsWgS5HI/6o4F4zBglA//Rgzk81c2Kx+uNWXZeFuIgoTETGovvOo7Arb4xt+NvhEUyPI0cvuku4NvlE0soK6XAT/5uX7oRyhDbH2E715amhmp5c7HBXq9cDKqRSGRjMhNMd0Ij961OHtzQHmvQwSI5hjk3LPVwHy2n7M9heIDDnvD5uaNRcDIfssFhqzjxczknTrZDEsOZ2c473pmisySrtjN/SkpgcXJHlnqXxknuYEa0oSHQ2URDtQ+PVYiDrmarKHKv44XFwX9ljGnJBDSqQVRoGWl/crEge36Pcdf57vUCUDu6N5MOv3d4yMlOKzgouPGX+nW3R0=",
+=======
   "encryptedCouchDBConnection": "%$W7oSZqeR/37Ij4Z61u9nD8gTF4yXUmWX9LfEQtQvSlcEfz6dEnOkFXLGK2ChV5kShAHLcoEPqN6CXN/W1/tdzoe9eoTzMqDdQhJFsvt9fzFqOzJP3pts0L8QjuDbbfQUi8LpZafmKLfRlMcdSwb4tsmGLd6NLJW3PXz0427KI9r0RjpZa/bQ5CzoukmkxbgE1295dVCnNhQ2itK501onuTN8T2XHNpATVR5tjBpiIHQZR+mqUqa5g1gBBVn/uy0yuB1DnnSuRzsREYBQkdqsHk6HN4kw4WmW9Vrr0dNizrY/nyqklZifeEwodPDJk3HFhdHklSvKfsOtXkJBxjS8hSRxDTuBp65FsiaD+ND4UYQLd5/CQ2ta31Mo68AnES0bpvxw69IZy7TrR5ZAB1oJu4vvf8FWPb7HNhJ155KSHsvS+uNDkJXb0kMkaZifR2ILWsCdF3smCYKPSBlJPdjJ3LPqfIwbl53yN6Hls82arurT6w5WXkvGk0INJLhJ0NyshRBwFId5/tns8J8m7CvdqPuCMmOFA9BWLHQYEoqfuuqYQdBzbYVs6aAMKL4ZuNAaJNAjSLxZYJVzW4TQZG/V6e504ive00T0NYdKnBHtqBEDndKE2iERhJ9AjqXES0PPBuaVOhbMrae+CJ6rBCT7Oh/es+fxKjl7H7iC5BXCZ//0kN5U3XlJPAfQJWGv2JPT6YZYl00=",
+>>>>>>> 3bdcb50a7805fd3dd52fd4dc7d9df09c9ae9c383
   "permitEmptyPassphrase": false,
   "useIndexedDBAdapter": true,
   "useTimeouts": false,
@@ -136,7 +148,11 @@
   "P2P_AutoAcceptingPeers": "",
   "P2P_AutoDenyingPeers": "",
   "P2P_IsHeadless": false,
+<<<<<<< HEAD
+  "doctorProcessedVersion": "",
+=======
   "doctorProcessedVersion": "0.25.0",
+>>>>>>> 3bdcb50a7805fd3dd52fd4dc7d9df09c9ae9c383
   "bucketCustomHeaders": "",
   "couchDB_CustomHeaders": "",
   "useJWT": false,
