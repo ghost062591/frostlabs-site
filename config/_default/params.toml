@@ -101,6 +101,9 @@ background = "/images/site/background-no-snowflakes.png"
 [sitemap]
   excludedKinds = ["taxonomy", "term"]
 
+[ficon]
+  favicon = "favicon.ico"
+
 [taxonomy]
   showTermCount = true
   showHero = true
