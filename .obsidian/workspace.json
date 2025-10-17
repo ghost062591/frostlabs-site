@@ -13,10 +13,22 @@
             "state": {
               "type": "diagram-edit",
               "state": {
-                "file": "Infrastructure Diagram.svg"
+                "file": "assets/diagrams/Untitled Diagram.svg"
               },
               "icon": "lucide-file",
-              "title": "Infrastructure Diagram.svg"
+              "title": "Untitled Diagram.svg"
+            }
+          },
+          {
+            "id": "5637888a9dc3952d",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-10-17 10.45.12.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-10-17 10.45.12.excalidraw"
             }
           },
           {
@@ -33,7 +45,8 @@
               "title": "homelab-infrastucture"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -189,14 +202,18 @@
       "obsidian-livesync:Show Customization sync": false
     }
   },
-  "active": "17b3411363234bb0",
+  "active": "1a4044e1f09da8a3",
   "lastOpenFiles": [
+    "assets/diagrams",
+    "assets/diagrams/Untitled Diagram.svg",
+    "Infrastructure Diagram.svg",
+    "Excalidraw/Drawing 2025-10-17 10.45.12.excalidraw.md",
+    "Excalidraw",
     "content/homelab/homelab-infrastucture.md",
     "Excalidraw/Drawing 2025-10-17 10.22.51.excalidraw.md",
     "Excalidraw/Drawing 2025-10-17 08.29.17.excalidraw.md",
     "Excalidraw/Drawing 2025-10-17 10.23.47.excalidraw.md",
     "Untitled.md",
-    "Infrastructure Diagram.svg",
     "assets/icons/adminer.svg",
     "assets/icons/Unconfirmed 865544.crdownload",
     "assets/icons/uptime-kuma.svg",
@@ -213,9 +230,7 @@
     "assets/icons/Unconfirmed 966585.crdownload",
     "assets/icons/vaultwarden.svg",
     "assets/icons/Unconfirmed 79488.crdownload",
-    "assets/icons/traefik.svg",
     "assets/icons/Unconfirmed 915237.crdownload",
-    "assets/icons/Unconfirmed 448952.crdownload",
     "Untitled Kanban 1.md",
     "Untitled Kanban.md",
     "content/blog/Untitled.md",

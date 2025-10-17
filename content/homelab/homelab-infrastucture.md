@@ -8,5 +8,7 @@ difficulty: Information
 hardware: []
 software:
   - Docker Swarm
+feature: "![[assets/diagrams/Untitled Diagram.svg]]"
 ---
 ---
+![[assets/diagrams/Untitled Diagram.svg]]
