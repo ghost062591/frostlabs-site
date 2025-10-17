@@ -10,4 +10,3 @@ software:
   - Docker Swarm
 ---
 ---
-[[Drawing 2025-10-17 10.22.51.excalidraw]]
