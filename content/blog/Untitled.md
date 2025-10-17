@@ -9,7 +9,12 @@ categories:
   - web-development
 ---
 
+<<<<<<< HEAD
+# This is a test
+
+=======
 # Untitled
+>>>>>>> 3bdcb50a7805fd3dd52fd4dc7d9df09c9ae9c383
 
 ## Overview
 
