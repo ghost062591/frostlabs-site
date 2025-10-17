@@ -11,15 +11,15 @@ title = "Blowfish"
   dateFormat = "2 January 2006"
   logo = "logos/frostlabs-logo.svg"
   # secondaryLogo = "img/secondary-logo.png"
-  # description = "My awesome website"
-  # copyright = "Copy, _right?_ :thinking_face:"
+  description = "My awesome website"
+  copyright = "Copy, _right?_ :thinking_face:"
 
-# [params.author]
-#   name = "Your name here"
-#   email = "youremail@example.com"
-#   image = "img/blowfish_logo.png"
+[params.author]
+  name = "Johnathan Allison"
+  email = "john.allisonwin@outlook.com"
+  image = "logos/frostlabs-logo.svg"
 #   imageQuality = 96
-#   headline = "I'm only human"
+  headline = "I'm only human"
 #   bio = "A little bit about you"
 #   links = [
 #     { email = "mailto:hello@your_domain.com" },
