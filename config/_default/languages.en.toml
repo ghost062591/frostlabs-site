@@ -12,7 +12,7 @@ title = "FrostLabs"
   logo = "logos/frostlabs-logo.svg"
   # secondaryLogo = "img/secondary-logo.png"
   description = "My awesome website"
-  copyright = "Copy, _right?_ :thinking_face:"
+  copyright = "© FrostLabs 2025"
 
 [params.author]
   name = "Johnathan Allison"
