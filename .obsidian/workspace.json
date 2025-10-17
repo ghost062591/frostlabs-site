@@ -20,19 +20,8 @@
               "icon": "lucide-file",
               "title": "Untitled"
             }
-          },
-          {
-            "id": "b970812e53c6a139",
-            "type": "leaf",
-            "state": {
-              "type": "log-log",
-              "state": {},
-              "icon": "view-log",
-              "title": "Self-hosted LiveSync Log"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "1fa7c58f44dbbb99",
@@ -44,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/blog/My New Blog.md",
+                "file": "content/blog/Untitled.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "My New Blog"
+              "title": "Untitled"
             }
           }
         ]
@@ -208,7 +197,7 @@
       "obsidian-livesync:Show Customization sync": false
     }
   },
-  "active": "b970812e53c6a139",
+  "active": "9d5bf154bbc7012e",
   "lastOpenFiles": [
     "content/blog/My New Blog.md",
     "content/blog/Untitled.md",
