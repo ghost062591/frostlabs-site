@@ -11,4 +11,4 @@ software:
 feature: "![[assets/diagrams/Untitled Diagram.svg]]"
 ---
 ---
-![[assets/diagrams/Untitled Diagram.svg]]
+![homelab-diagram](/assets/diagrams/Untitled Diagram.svg)
