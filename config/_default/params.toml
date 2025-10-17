@@ -65,7 +65,7 @@ background = "/images/site/background-no-snowflakes.png"
   showLikes = false
   showDateUpdated = false
   showAuthor = true
-  showHero = false
+  showHero = true
   heroStyle = "background"
   showBreadcrumbs = false
   showDraftLabel = true
@@ -77,7 +77,7 @@ background = "/images/site/background-no-snowflakes.png"
   showPagination = true
   invertPagination = false
   showReadingTime = true
-  showTableOfContents = false
+  showTableOfContents = true
   showTaxonomies = false
   showAuthorsBadges = false
   showWordCount = true
@@ -85,7 +85,7 @@ background = "/images/site/background-no-snowflakes.png"
   sharingLinks = ["linkedin", "twitter", "reddit", "pinterest", "facebook", "email"]
 
 [list]
-  showHero = false
+  showHero = true
   heroStyle = "background"
   showBreadcrumbs = false
   showSummary = false
@@ -103,11 +103,11 @@ background = "/images/site/background-no-snowflakes.png"
 
 [taxonomy]
   showTermCount = true
-  showHero = false
+  showHero = true
   heroStyle = "background"
 
 [term]
-  showHero = false
+  showHero = true 
   heroStyle = "background"
   showBreadcrumbs = false
   showViews = false
