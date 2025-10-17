@@ -1,3 +1,5 @@
 {
-  "showRibbon": true
+  "showRibbon": true,
+  "theme": "moonstone",
+  "accentColor": "#5ff55c"
 }
