@@ -38,8 +38,8 @@
               "type": "markdown",
               "state": {
                 "file": "content/homelab/homelab-infrastucture.md",
-                "mode": "source",
-                "source": false
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
               "title": "homelab-infrastucture"
