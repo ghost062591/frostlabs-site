@@ -9,7 +9,7 @@ hardware: []
 software:
   - Docker Swarm
 feature: "![homelab](diagrams/homelab.svg)"
-showAuthor: "true"
+showAuthor: article.showAuthor
 ---
 ---
 ![my homelab](diagrams/homelab.svg)
