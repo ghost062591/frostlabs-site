@@ -13,10 +13,10 @@
             "state": {
               "type": "diagram-edit",
               "state": {
-                "file": "assets/diagrams/Untitled Diagram.svg"
+                "file": "assets/diagrams/homelab.svg"
               },
               "icon": "lucide-file",
-              "title": "Untitled Diagram.svg"
+              "title": "homelab.svg"
             }
           },
           {
@@ -206,8 +206,10 @@
   "lastOpenFiles": [
     "assets/diagrams/Untitled.md",
     "content/homelab/homelab-infrastucture.md",
+    "diagrams/Untitled.md",
+    "diagrams",
     "content/blog/My New Blog.md",
-    "assets/diagrams/Untitled Diagram.svg",
+    "assets/diagrams/homelab.svg",
     "assets/diagrams",
     "Infrastructure Diagram.svg",
     "Excalidraw/Drawing 2025-10-17 10.45.12.excalidraw.md",
@@ -231,7 +233,6 @@
     "assets/icons/grafana.svg",
     "assets/icons/Unconfirmed 966585.crdownload",
     "assets/icons/vaultwarden.svg",
-    "assets/icons/Unconfirmed 79488.crdownload",
     "Untitled Kanban 1.md",
     "Untitled Kanban.md",
     "content/blog/Untitled.md",
