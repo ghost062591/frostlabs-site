@@ -32,23 +32,9 @@
               "icon": "lucide-file",
               "title": "homelab-infrastucture"
             }
-          },
-          {
-            "id": "05b04c17f98e31ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/homelab/homelab-infrastucture.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "homelab-infrastucture"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -204,12 +190,12 @@
       "obsidian-livesync:Show Customization sync": false
     }
   },
-  "active": "05b04c17f98e31ef",
+  "active": "c4ccf92da063f2ac",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2025-10-17 10.22.51.excalidraw.md",
+    "content/homelab/homelab-infrastucture.md",
     "Excalidraw/Drawing 2025-10-17 08.29.17.excalidraw.md",
     "Excalidraw/Drawing 2025-10-17 10.23.47.excalidraw.md",
-    "content/homelab/homelab-infrastucture.md",
     "Untitled.md",
     "Infrastructure Diagram.svg",
     "assets/icons/adminer.svg",
