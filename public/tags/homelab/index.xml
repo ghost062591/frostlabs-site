@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homelab on FrostLabs</title>
+    <link>https://ghost062591.github.io/frostlabs-site/tags/homelab/</link>
+    <description>Recent content in Homelab on FrostLabs</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© 2025 FrostLabs</copyright>
+    <lastBuildDate>Fri, 17 Oct 2025 08:27:58 +0000</lastBuildDate>
+    <atom:link href="https://ghost062591.github.io/frostlabs-site/tags/homelab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Homelab Infrastructure</title>
+      <link>https://ghost062591.github.io/frostlabs-site/homelab/homelab-infrastucture/</link>
+      <pubDate>Fri, 17 Oct 2025 08:27:58 +0000</pubDate>
+      <guid>https://ghost062591.github.io/frostlabs-site/homelab/homelab-infrastucture/</guid>
+      <description>&lt;hr&gt;</description>
+    </item>
+    <item>
+      <title>&#34;From Self-Hosted Complexity to GitHub Pages Simplicity: Building a Hugo Site with Blowfish&#34;</title>
+      <link>https://ghost062591.github.io/frostlabs-site/blog/my-new-blog/</link>
+      <pubDate>Thu, 16 Oct 2025 14:50:55 +0000</pubDate>
+      <guid>https://ghost062591.github.io/frostlabs-site/blog/my-new-blog/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;p&gt;Building a personal blog should be straightforward, but like many homelab enthusiasts, I initially overcomplicated things. What started as a simple Hugo site deployment turned into a learning experience about when to embrace simplicity over self-hosted complexity.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
