@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/blog/My New Blog.md",
+                "file": "content/blog/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "My New Blog"
+              "title": "Untitled"
             }
           }
         ]
@@ -197,11 +197,11 @@
       "obsidian-livesync:Show Customization sync": false
     }
   },
-  "active": "1a4044e1f09da8a3",
+  "active": "9d5bf154bbc7012e",
   "lastOpenFiles": [
-    "Untitled.md",
     "Untitled 1.md",
     "content/blog/Untitled.md",
+    "Untitled.md",
     "content/blog/My New Blog.md",
     "content/_index.md",
     "Untitled Kanban.md",
