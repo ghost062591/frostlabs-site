@@ -8,15 +8,52 @@
         "type": "tabs",
         "children": [
           {
-            "id": "adc6dd325666212d",
+            "id": "9d5bf154bbc7012e",
             "type": "leaf",
             "state": {
-              "type": "diagram-edit",
+              "type": "markdown",
               "state": {
-                "file": "Infrastructure Diagram.svg"
+                "file": "content/blog/My New Blog.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Infrastructure Diagram.svg"
+              "title": "My New Blog"
+            }
+          },
+          {
+            "id": "26cc2e38c0275508",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "1fa7c58f44dbbb99",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9f97ef15ed97e070",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/blog/My New Blog.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "My New Blog"
             }
           }
         ]
@@ -155,6 +192,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "templater-obsidian:Templater": false,
+      "github-sync:Sync with Remote": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -162,8 +201,6 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "github-sync:Sync with Remote": false,
-      "templater-obsidian:Templater": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "markdown-table-editor:Open Markdown Table Editor": false,
       "callout-manager:Insert Callout": false,
@@ -175,16 +212,18 @@
       "obsidian-livesync:Show Customization sync": false
     }
   },
-  "active": "1a4044e1f09da8a3",
+  "active": "26cc2e38c0275508",
   "lastOpenFiles": [
-    "content/homelab/homelab-infrastucture.md",
+    "Untitled.md",
+    "content/blog/Untitled.md",
     "Infrastructure Diagram.svg",
-    "Untitled Kanban 1.md",
-    "Untitled Kanban.md",
+    "content/homelab/homelab-infrastucture.md",
     "Excalidraw/Drawing 2025-10-17 08.29.17.excalidraw.md",
     "Excalidraw",
-    "content/blog/Untitled.md",
     "content/blog/My New Blog.md",
+    "Untitled 1.md",
+    "content/_index.md",
+    "Untitled Kanban.md",
     "content/gallery/Untitled.md",
     "assets/img/stock/traffic.svg",
     "assets/img/stock/ripples.svg",
