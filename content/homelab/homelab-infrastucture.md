@@ -8,5 +8,8 @@ difficulty: Information
 hardware: []
 software:
   - Docker Swarm
+feature: "![homelab](diagrams/homelab.svg)"
+showAuthor: article.showAuthor
 ---
 ---
+![my homelab](diagrams/homelab.svg)
