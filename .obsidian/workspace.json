@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/blog/Untitled.md",
+                "file": "content/blog/My New Blog.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "My New Blog"
             }
           }
         ]
@@ -199,8 +199,9 @@
   },
   "active": "9d5bf154bbc7012e",
   "lastOpenFiles": [
-    "content/blog/My New Blog.md",
     "content/blog/Untitled.md",
+    "content/_index.md",
+    "content/blog/My New Blog.md",
     "Untitled Kanban.md",
     "content/gallery/Untitled.md",
     "assets/img/stock/traffic.svg",
