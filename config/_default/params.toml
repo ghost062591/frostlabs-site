@@ -36,10 +36,16 @@ hotlinkFeatureImage = false
 # fingerprintAlgorithm = "sha512" # Valid values are "sha512" (default), "sha384", "sha256"
 
 [homepage]
-  layout = "background"
-  homepageImage = "/img/site/background-no-snowflakes.png"
+  layout = "background" # valid options: page, profile, hero, card, background, custom
+  #homepageImage = "IMAGE.jpg" # used in: hero, and card
   showRecent = true
   showRecentItems = 5
+  showMoreLink = false
+  showMoreLinkDest = "/posts/"
+  cardView = true
+  cardViewScreenWidth = false
+  layoutBackgroundBlur = true # only used when layout equals background
+  disableHeroImageFilter = false 
 
 [header]
 layout = "fixed-fill"
