@@ -1,20 +1,14 @@
 ---
 title: Untitled
-date: 2025-10-17T06:58:56Z
+date: 2025-10-17T07:14:06Z
 draft: true
 tags:
-  - blowfish
-description: Detailed Post Explaining my process so far launching a blog site.
-categories:
-  - web-development
+  - 
+description: ""
+categories: []
 ---
 
-<<<<<<< HEAD
-# This is a test
-
-=======
-# Untitled
->>>>>>> 3bdcb50a7805fd3dd52fd4dc7d9df09c9ae9c383
+# is this thing on?
 
 ## Overview
 
