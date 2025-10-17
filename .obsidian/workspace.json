@@ -8,11 +8,48 @@
         "type": "tabs",
         "children": [
           {
+<<<<<<< HEAD
+            "id": "9d5bf154bbc7012e",
+=======
             "id": "17b3411363234bb0",
+>>>>>>> 22243176db90267bbd8f1d34a8ed8378e97ae490
             "type": "leaf",
             "state": {
-              "type": "diagram-edit",
+              "type": "markdown",
               "state": {
+<<<<<<< HEAD
+                "file": "content/blog/My New Blog.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "My New Blog"
+            }
+          },
+          {
+            "id": "26cc2e38c0275508",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "1fa7c58f44dbbb99",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9f97ef15ed97e070",
+=======
                 "file": "assets/diagrams/homelab.svg"
               },
               "icon": "lucide-file",
@@ -33,16 +70,25 @@
           },
           {
             "id": "c4ccf92da063f2ac",
+>>>>>>> 22243176db90267bbd8f1d34a8ed8378e97ae490
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
+                "file": "content/blog/My New Blog.md",
+=======
                 "file": "content/homelab/homelab-infrastucture.md",
+>>>>>>> 22243176db90267bbd8f1d34a8ed8378e97ae490
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
+<<<<<<< HEAD
+              "title": "My New Blog"
+=======
               "title": "homelab-infrastucture"
+>>>>>>> 22243176db90267bbd8f1d34a8ed8378e97ae490
             }
           }
         ],
@@ -182,6 +228,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "templater-obsidian:Templater": false,
+      "github-sync:Sync with Remote": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -189,8 +237,6 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "github-sync:Sync with Remote": false,
-      "templater-obsidian:Templater": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "markdown-table-editor:Open Markdown Table Editor": false,
       "callout-manager:Insert Callout": false,
@@ -202,6 +248,30 @@
       "obsidian-livesync:Show Customization sync": false
     }
   },
+<<<<<<< HEAD
+  "active": "26cc2e38c0275508",
+  "lastOpenFiles": [
+    "assets/icons/vaultwarden.svg",
+    "assets/icons/traefik.svg",
+    "assets/icons/sonarr-radarr.svg",
+    "assets/icons/redis.svg",
+    "assets/icons/prowlarr-radarr.svg",
+    "assets/icons/prowlarr-radarr (1).svg",
+    "assets/icons/prometheus.svg",
+    "assets/icons/postgresql.svg",
+    "assets/icons/portainer.svg",
+    "assets/icons/paperless-ngx.svg",
+    "assets/icons/open-webui.svg",
+    "Untitled.md",
+    "content/blog/Untitled.md",
+    "content/homelab/homelab-infrastucture.md",
+    "Excalidraw/Drawing 2025-10-17 08.29.17.excalidraw.md",
+    "Excalidraw",
+    "content/blog/My New Blog.md",
+    "Untitled 1.md",
+    "content/_index.md",
+    "Untitled Kanban.md",
+=======
   "active": "c4ccf92da063f2ac",
   "lastOpenFiles": [
     "assets/logos/Author-Logo.png",
@@ -237,7 +307,17 @@
     "Untitled Kanban 1.md",
     "Untitled Kanban.md",
     "content/blog/Untitled.md",
+>>>>>>> 22243176db90267bbd8f1d34a8ed8378e97ae490
     "content/gallery/Untitled.md",
+    "assets/img/stock",
+    "assets/img/New folder",
+    "assets/img/site",
+    "assets/img/projects",
+    "assets/img/homelab",
+    "assets/img/gallery",
+    "assets/img/blog",
+    "assets/lib/katex/fonts/KaTeX_Typewriter-Regular.woff2",
+    "assets/lib/katex/fonts/KaTeX_Typewriter-Regular.woff",
     "content/blog/_index.md",
     "Templates/Gallery.md",
     "Templates/Homelab.md",
