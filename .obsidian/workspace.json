@@ -195,15 +195,13 @@
       "markdown-table-editor:Open Markdown Table Editor": false,
       "callout-manager:Insert Callout": false,
       "obsidian-kanban:Create new board": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-livesync:P2P Replicator": false,
-      "obsidian-livesync:Show Log": false,
-      "obsidian-livesync:Replicate": false,
-      "obsidian-livesync:Show Customization sync": false
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
   "active": "c4ccf92da063f2ac",
   "lastOpenFiles": [
+    "content/homelab/_index.md",
+    "content/homelab/homelab-infrastucture.md",
     "static/favicon.ico",
     "static/Unconfirmed 498217.crdownload",
     "static/frostlabs-logo.svg",
@@ -215,12 +213,10 @@
     "public/tags/blowfish/index.xml",
     "public/tags/index.xml",
     "public/tags/hugo",
-    "public/tags/homelab",
     "assets/logos/Author-Logo.png",
     "assets/logos/Frostlabs-background.svg",
     "assets/logos/frostlabs-logo.svg",
     "assets/diagrams/Untitled.md",
-    "content/homelab/homelab-infrastucture.md",
     "diagrams/Untitled.md",
     "content/blog/My New Blog.md",
     "assets/diagrams/homelab.svg",
