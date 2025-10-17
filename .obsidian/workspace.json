@@ -11,14 +11,12 @@
             "id": "adc6dd325666212d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diagram-edit",
               "state": {
-                "file": "content/homelab/homelab-infrastucture.md",
-                "mode": "source",
-                "source": false
+                "file": "Infrastructure Diagram.svg"
               },
               "icon": "lucide-file",
-              "title": "homelab-infrastucture"
+              "title": "Infrastructure Diagram.svg"
             }
           }
         ]
@@ -177,14 +175,16 @@
       "obsidian-livesync:Show Customization sync": false
     }
   },
-  "active": "adc6dd325666212d",
+  "active": "1a4044e1f09da8a3",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2025-10-17 08.29.17.excalidraw.md",
     "content/homelab/homelab-infrastucture.md",
+    "Infrastructure Diagram.svg",
+    "Untitled Kanban 1.md",
+    "Untitled Kanban.md",
+    "Excalidraw/Drawing 2025-10-17 08.29.17.excalidraw.md",
     "Excalidraw",
     "content/blog/Untitled.md",
     "content/blog/My New Blog.md",
-    "Untitled Kanban.md",
     "content/gallery/Untitled.md",
     "assets/img/stock/traffic.svg",
     "assets/img/stock/ripples.svg",
@@ -195,7 +195,6 @@
     "assets/img/stock/blowfish_logo_transparent.png",
     "assets/img/stock/blowfish_logo.png",
     "assets/img/stock/blowfish_banner_transparent.png",
-    "assets/img/stock/blowfish_banner.png",
     "assets/img/stock",
     "assets/img/New folder",
     "assets/img/site",
