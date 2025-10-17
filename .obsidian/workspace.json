@@ -33,8 +33,7 @@
               "title": "homelab-infrastucture"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -190,10 +189,10 @@
       "obsidian-livesync:Show Customization sync": false
     }
   },
-  "active": "c4ccf92da063f2ac",
+  "active": "17b3411363234bb0",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2025-10-17 10.22.51.excalidraw.md",
     "content/homelab/homelab-infrastucture.md",
+    "Excalidraw/Drawing 2025-10-17 10.22.51.excalidraw.md",
     "Excalidraw/Drawing 2025-10-17 08.29.17.excalidraw.md",
     "Excalidraw/Drawing 2025-10-17 10.23.47.excalidraw.md",
     "Untitled.md",
