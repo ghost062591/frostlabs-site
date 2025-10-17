@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "30f91e0284a5369e",
+        "id": "8505cff465a7de21",
         "type": "tabs",
         "children": [
           {
+<<<<<<< HEAD
             "id": "9d5bf154bbc7012e",
+=======
+            "id": "17b3411363234bb0",
+>>>>>>> 22243176db90267bbd8f1d34a8ed8378e97ae490
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "content/blog/My New Blog.md",
                 "mode": "source",
                 "source": false
@@ -44,19 +49,50 @@
         "children": [
           {
             "id": "9f97ef15ed97e070",
+=======
+                "file": "assets/diagrams/homelab.svg"
+              },
+              "icon": "lucide-file",
+              "title": "homelab.svg"
+            }
+          },
+          {
+            "id": "5637888a9dc3952d",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-10-17 10.45.12.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-10-17 10.45.12.excalidraw"
+            }
+          },
+          {
+            "id": "c4ccf92da063f2ac",
+>>>>>>> 22243176db90267bbd8f1d34a8ed8378e97ae490
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "content/blog/My New Blog.md",
+=======
+                "file": "content/homelab/homelab-infrastucture.md",
+>>>>>>> 22243176db90267bbd8f1d34a8ed8378e97ae490
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
+<<<<<<< HEAD
               "title": "My New Blog"
+=======
+              "title": "homelab-infrastucture"
+>>>>>>> 22243176db90267bbd8f1d34a8ed8378e97ae490
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -212,6 +248,7 @@
       "obsidian-livesync:Show Customization sync": false
     }
   },
+<<<<<<< HEAD
   "active": "26cc2e38c0275508",
   "lastOpenFiles": [
     "assets/icons/vaultwarden.svg",
@@ -234,6 +271,43 @@
     "Untitled 1.md",
     "content/_index.md",
     "Untitled Kanban.md",
+=======
+  "active": "c4ccf92da063f2ac",
+  "lastOpenFiles": [
+    "assets/logos/Frostlabs-background.svg",
+    "assets/logos/frostlabs-logo.svg",
+    "assets/logos",
+    "assets/New folder",
+    "assets/diagrams/Untitled.md",
+    "content/homelab/homelab-infrastucture.md",
+    "diagrams/Untitled.md",
+    "diagrams",
+    "content/blog/My New Blog.md",
+    "assets/diagrams/homelab.svg",
+    "assets/diagrams",
+    "Infrastructure Diagram.svg",
+    "Excalidraw/Drawing 2025-10-17 10.45.12.excalidraw.md",
+    "Excalidraw",
+    "Excalidraw/Drawing 2025-10-17 10.22.51.excalidraw.md",
+    "Excalidraw/Drawing 2025-10-17 08.29.17.excalidraw.md",
+    "Excalidraw/Drawing 2025-10-17 10.23.47.excalidraw.md",
+    "Untitled.md",
+    "assets/icons/adminer.svg",
+    "assets/icons/Unconfirmed 865544.crdownload",
+    "assets/icons/uptime-kuma.svg",
+    "assets/icons/Unconfirmed 858078.crdownload",
+    "assets/icons/duplicati.svg",
+    "assets/icons/Unconfirmed 929045.crdownload",
+    "assets/icons/file-browser.svg",
+    "assets/icons/Unconfirmed 936574.crdownload",
+    "assets/icons/notifiarr.svg",
+    "assets/icons/Unconfirmed 587738.crdownload",
+    "assets/icons/prometheus.svg",
+    "assets/icons/grafana.svg",
+    "Untitled Kanban 1.md",
+    "Untitled Kanban.md",
+    "content/blog/Untitled.md",
+>>>>>>> 22243176db90267bbd8f1d34a8ed8378e97ae490
     "content/gallery/Untitled.md",
     "assets/img/stock",
     "assets/img/New folder",
