@@ -16,23 +16,3 @@ categories:
 
 Learning homelabbing on my own has been a wild ride filled with challenges and triumphs. Starting out, I had basic Docker knowledge, but as my setup grew more complex, managing multiple individual machines running Docker became tedious. This led me down the path of setting up and struggling with Docker Swarm. Over weeks of research, testing, and failing, I finally achieved a functional production Docker Swarm deployment.
 
-## Problem/Challenge
-
-What issue are you addressing?
-
-## Solution/Approach
-
-Your methodology or solution.
-
-## Implementation
-
-Step-by-step details or code examples.
-
-## Results/Conclusion
-
-What you learned or achieved.
-
-## Resources
-
-- [Link 1](url)
-- [Link 2](url)
