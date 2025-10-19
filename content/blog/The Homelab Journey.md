@@ -57,7 +57,7 @@ To maintain consistency and ease of management, I keep all configurations in a v
 
 Portainer serves as the central management UI for monitoring and managing the entire infrastructure. Detailed documentation and blog posts provide insights into setup and configuration.
 
-I then created then pushed to a new github repo as a backup. That prompted me to learn a whole new side of DevOps. Security. Even though I have the repo private I still knew it was a problem to leave passwords and keys out in the open. So I learned how to create docker swarm secrets. Sounds easy, but it took some trial and error. Some services require POSTGRES_PASSWORD_FILE=/run/secrets/secret-name. Others want POSTGRES_PASSWORD=file:///run/secets/secret-name. 
+I then created then pushed to a new github repo as a backup. That prompted me to learn a whole new side of DevOps. Security. Even though I have the repo private I still knew it was a problem to leave passwords and keys out in the open. So I learned how to create docker swarm secrets. Sounds easy, but it took some trial and error. Some services require POSTGRES_PASSWORD_FILE=/run/secrets/secret-name. Others want POSTGRES_PASSWORD=file:///run/secets/secret-name. Hopefully the documentation of whatever service 
 
 ---
 
