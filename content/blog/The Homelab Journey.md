@@ -57,7 +57,7 @@ To maintain consistency and ease of management, I keep all configurations in a v
 
 Portainer serves as the central management UI for monitoring and managing the entire infrastructure. Detailed documentation and blog posts provide insights into setup and configuration.
 
-I them created a pushed a 
+I then created then pushed to a new github 
 
 ---
 
