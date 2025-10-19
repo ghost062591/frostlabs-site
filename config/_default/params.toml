@@ -54,7 +54,7 @@ background = "/images/site/background-no-snowflakes.png"
 [footer]
   showMenu = true
   showCopyright = true
-  showThemeAttribution = true
+  showThemeAttribution = false
   showAppearanceSwitcher = true
   showScrollToTop = true
 
@@ -67,7 +67,8 @@ background = "/images/site/background-no-snowflakes.png"
   showAuthor = true
   showHero = true
   heroStyle = "background"
-  showBreadcrumbs = true
+  showBreadcrumbs = false
+  layoutBackgroundBlur = true
   showDraftLabel = true
   showEdit = false
   editURL = "https://github.com/ghost062591/frostlabs-site"
@@ -100,6 +101,9 @@ background = "/images/site/background-no-snowflakes.png"
 
 [sitemap]
   excludedKinds = ["taxonomy", "term"]
+
+[ficon]
+  favicon = "favicon.ico"
 
 [taxonomy]
   showTermCount = true
