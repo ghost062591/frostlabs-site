@@ -1,7 +1,7 @@
 ---
 title: The Homelab Journey
 date: 2025-10-18T23:41:45Z
-draft: true
+draft: false
 tags:
   - docker
   - homelab
