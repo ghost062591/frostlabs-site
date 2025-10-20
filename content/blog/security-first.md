@@ -12,7 +12,7 @@ categories:
 ---
 
 {{< lead >}}
-Hey there! Today we’re diving into a topic that's been on my mind lately—data security. It’s not just about tech anymore; it’s something we all need to be aware of.
+Allow me a moment to dive into a topic that's been on my mind lately—data security. We all have data, it's time to secure it.
 {{< /lead >}}
 
 ## Why Data Security Matters
@@ -24,8 +24,17 @@ Ever had one of those moments where you realize your data could have been better
 ## Basic Steps for Beginners
 
 1. **Use Strong Passwords**: This seems obvious, but it’s amazing how many people still use simple passwords or reuse them across multiple sites.
+    - I started by using a password manager like LastPass only a self-hosted version called Vaultwarden, to generate and store strong, unique passwords for each of my accounts.
 2. **Enable Two-Factor Authentication (2FA)**: It adds an extra layer of security that’s surprisingly easy to set up and use.
+    - For most of my important accounts, I enabled 2FA using authenticator apps like Google Authenticator or Authy.
 3. **Regular Backups**: Make sure you have a backup system in place, whether it's cloud storage or an external hard drive.
+    - I started backing up my critical files to a NAS (Network Attached Storage) solution then encrypting and storing the files on Google Drive. 
+    
+> [!IMPORTANT] The Golden Rule of Data Hygiene
+> The 3-2-1 Method.
+> * Three copies of all your data.
+> * Two different types of storage media. External hard drives + NAS.
+> * One kept off site. S3 Storage recommended, but Google drive or similar will work fine as long as you encrypt it. 
 
 ## Real-World Examples
 
@@ -41,4 +50,4 @@ So, what can you do today? Start by setting up strong passwords and 2FA on all y
 In the end, it’s about being proactive and making small changes that can make a big difference.
 {{< /lead >}}
 
-Thanks for reading! If you have any tips or stories related to data security, share them in the comments below!
+Thanks for reading! 
