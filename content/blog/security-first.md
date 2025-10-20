@@ -1,11 +1,14 @@
 ---
 title: "Securing Your Data: Why It Matters Now"
-date: 2024-01-15
+date: 2025-10-19
 draft: false
-description: "Exploring why data security is crucial in today’s tech-savvy world, with tips for beginners."
-tags: ["inspiration", "random-thoughts", "personal"]
-categories: ["blog"]
-layout: "simple"
+description: Exploring why data security is crucial in today’s tech-savvy world, with tips for beginners.
+tags:
+  - inspiration
+  - random-thoughts
+  - personal
+categories:
+  - blog
 ---
 
 {{< lead >}}
