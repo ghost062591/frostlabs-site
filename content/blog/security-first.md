@@ -30,7 +30,7 @@ Ever had one of those moments where you realize your data could have been better
 3. **Regular Backups**: Make sure you have a backup system in place, whether it's cloud storage or an external hard drive.
     - I started backing up my critical files to a NAS (Network Attached Storage) solution then encrypting and storing the files on Google Drive. 
 
-	{{< alert >}} **IMPORTANT** The Golden Rule of Data Hygiene
+	{{< alert >}} **IMPORTANT:** The Golden Rule of Data Hygiene
 
 The 3-2-1 Method:
 
