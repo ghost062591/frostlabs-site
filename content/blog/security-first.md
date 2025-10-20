@@ -30,13 +30,13 @@ Ever had one of those moments where you realize your data could have been better
 3. **Regular Backups**: Make sure you have a backup system in place, whether it's cloud storage or an external hard drive.
     - I started backing up my critical files to a NAS (Network Attached Storage) solution then encrypting and storing the files on Google Drive. 
 
-	{{<alert>}}
-	**IMPORTANT** The Golden Rule of Data Hygiene
-		The 3-2-1 Method.
-		* Three copies of all your data.
-		* Two different types of storage media. External hard drives + NAS.
-		* One kept off site. S3 Storage recommended, but Google drive or similar will work fine as long as you encrypt it.
-{{</alert>}}
+	{{< alert >}} **IMPORTANT** The Golden Rule of Data Hygiene
+
+The 3-2-1 Method:
+
+- Three copies of all your data
+- Two different types of storage media (External hard drives + NAS)
+- One kept off site (S3 Storage recommended, but Google Drive or similar will work fine as long as you encrypt it) {{< /alert >}}
 ## Real-World Examples
 
 Remember the Equifax breach? That was a wake-up call for many people who thought their data wasn’t at risk. It’s not just big companies; your personal data is valuable too.
