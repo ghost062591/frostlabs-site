@@ -3,4 +3,4 @@ title: "Gallery"
 description: "Photography collection showcasing various subjects and techniques."
 ---
 
-A curated collection of photography work covering landscapes, technology, and everyday moments. Each image includes technical details about camera settings and post-processing techniques when relevant.
+A curated collection of photography work covering landscapes, technology, and astrophotography. Each image includes technical details about camera settings and post-processing techniques when relevant. Click or tap a card to see project details.
