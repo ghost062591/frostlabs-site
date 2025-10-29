@@ -49,7 +49,7 @@ hotlinkFeatureImage = false
 
 [header]
 layout = "fixed-fill"
-background = "/images/site/background-no-snowflakes.png"
+background = "/img/site/background-no-snowflakes.png"
 
 [footer]
   showMenu = true
@@ -59,7 +59,7 @@ background = "/images/site/background-no-snowflakes.png"
   showScrollToTop = true
 
 [article]
-  background = "/images/site/background-no-snowflakes.png"
+  background = "/img/site/background-no-snowflakes.png"
   showDate = true
   showViews = false
   showLikes = false
