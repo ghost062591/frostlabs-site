@@ -1,13 +1,11 @@
 ---
-title: "House Project"
-date: 2025-11-06
-draft: false
-description: "Documentation of the New House Project"
+title: House Project
+date: 2025-11-07T00:00:00Z
 tags:
   - house
-  - renovation
-  - DIY
+  - workflow
 showTableOfContents: true
+description: Comprehensive engineering and design work spanning nearly 2 years
 ---
 
 ## Project Overview
