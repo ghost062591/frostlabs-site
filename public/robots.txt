@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://ghost062591.github.io/frostlabs-site/sitemap.xml
