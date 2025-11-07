@@ -1,0 +1,41 @@
+{{/*
+  Lightbox Shortcode - Display an image with GLightbox modal
+
+  Usage:
+    {{< lightbox src="image.jpg" alt="Description" caption="Optional caption" thumb="800" >}}
+
+  Parameters:
+    - src (required): Image source path (relative to page bundle or static/)
+    - alt (required): Alt text for accessibility
+    - caption (optional): Caption displayed in lightbox
+    - thumb (optional): Thumbnail width in pixels (default: 800, maintains aspect ratio)
+    - class (optional): Additional CSS classes
+*/}}
+
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default "Image" -}}
+{{- $caption := .Get "caption" | default "" -}}
+{{- $thumbWidth := .Get "thumb" | default "800" -}}
+{{- $class := .Get "class" | default "" -}}
+
+{{- $img := "" -}}
+{{- $imgFull := "" -}}
+{{- $imgThumb := "" -}}
+
+{{/* Try to get image as page resource first */}}
+{{- with .Page.Resources.GetMatch $src -}}
+  {{- $img = . -}}
+  {{- $imgFull = .RelPermalink -}}
+
+  {{/* Create responsive thumbnail that maintains aspect ratio */}}
+  {{- $thumbImg := .Resize (printf "%sx webp q85" $thumbWidth) -}}
+  {{- $imgThumb = $thumbImg.RelPermalink -}}
+{{- else -}}
+  {{/* Fallback to static file */}}
+  {{- $imgFull = $src | relURL -}}
+  {{- $imgThumb = $src | relURL -}}
+{{- end -}}
+
+<a href="{{ $imgFull }}" class="glightbox {{ $class }}" {{ with $caption }}data-title="{{ . }}"{{ end }} data-description="{{ $alt }}">
+  <img src="{{ $imgThumb }}" alt="{{ $alt }}" loading="lazy" />
+</a>

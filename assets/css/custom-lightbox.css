@@ -1,0 +1,130 @@
+/**
+ * Custom GLightbox Styling for FrostLabs Dark Theme
+ *
+ * Enhances the default GLightbox styles to match the FrostLabs dark theme
+ * and provides better integration with the existing design.
+ */
+
+/* Dark theme overlay - slightly transparent for better aesthetics */
+.glightbox-container .goverlay {
+  background: rgba(0, 0, 0, 0.95) !important;
+}
+
+/* Navigation buttons - better visibility on dark background */
+.glightbox-clean .gprev,
+.glightbox-clean .gnext {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  transition: all 0.3s ease;
+}
+
+.glightbox-clean .gprev:hover,
+.glightbox-clean .gnext:hover {
+  background-color: rgba(255, 255, 255, 0.25) !important;
+  transform: scale(1.1);
+}
+
+/* Close button styling */
+.glightbox-clean .gclose {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  transition: all 0.3s ease;
+}
+
+.glightbox-clean .gclose:hover {
+  background-color: rgba(255, 255, 255, 0.25) !important;
+  transform: scale(1.1);
+}
+
+/* Description/caption styling for dark theme */
+.gslide-description {
+  background: linear-gradient(to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.85) 100%) !important;
+  padding: 20px !important;
+}
+
+.glightbox-clean .gslide-title {
+  color: #ffffff !important;
+  font-size: 1.2em !important;
+  font-weight: 600 !important;
+  margin-bottom: 10px !important;
+}
+
+.glightbox-clean .gslide-desc {
+  color: #cccccc !important;
+  font-size: 0.95em !important;
+}
+
+/* Thumbnail hover effect in galleries */
+.lightbox-gallery a.glightbox img {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.lightbox-gallery a.glightbox:hover img {
+  opacity: 0.85;
+  transform: scale(1.02);
+}
+
+/* Loading spinner - match theme colors */
+.gloader {
+  border: 3px solid rgba(255, 255, 255, 0.2) !important;
+  border-top-color: #ffffff !important;
+}
+
+/* Image zoom cursor indicators */
+.gslide-image img.zoomable {
+  cursor: zoom-in;
+}
+
+.zoomed .gslide-image img.zoomable {
+  cursor: grab;
+}
+
+.zoomed .gslide-image img.dragging {
+  cursor: grabbing !important;
+}
+
+/* Smooth transitions for all lightbox interactions */
+.glightbox-container .gslide {
+  transition: opacity 0.4s ease;
+}
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+  .gslide-description {
+    padding: 15px !important;
+    font-size: 0.9em !important;
+  }
+
+  .glightbox-clean .gslide-title {
+    font-size: 1em !important;
+  }
+
+  .glightbox-clean .gprev,
+  .glightbox-clean .gnext {
+    width: 35px !important;
+    height: 45px !important;
+  }
+}
+
+/* Accessibility - focus states */
+.glightbox-clean .gprev:focus,
+.glightbox-clean .gnext:focus,
+.glightbox-clean .gclose:focus {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+}
+
+/* Gallery integration - ensure images fit nicely */
+.lightbox-gallery a.glightbox {
+  display: inline-block;
+  line-height: 0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.lightbox-gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+}

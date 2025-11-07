@@ -1,0 +1,85 @@
+{{/*
+  Lightbox Carousel Shortcode - Display scrollable carousel with GLightbox modal
+
+  Usage:
+    {{< lightbox-carousel >}}
+      <img src="image1.jpg" alt="Image 1" data-caption="Optional caption" />
+      <img src="image2.jpg" alt="Image 2" data-caption="Second image" />
+    {{< /lightbox-carousel >}}
+
+  Features:
+    - Horizontal scrolling carousel
+    - Smaller thumbnails (300px) for carousel display
+    - Click to view full resolution in lightbox
+    - Smooth scrolling with scroll snap
+    - Mobile-friendly touch scrolling
+*/}}
+
+{{ $id := delimit (slice "carousel" (partial "functions/uid.html" .)) "-" -}}
+{{ $content := .Inner -}}
+
+{{/* Find all img tags and process them */}}
+{{ range findRE `<img\s+[^>]*>` $content -}}
+  {{ $imgTag := . -}}
+
+  {{/* Extract src attribute */}}
+  {{ with findRESubmatch `src=['"]([^'"]+)['"]` $imgTag -}}
+    {{ $srcAttr := index (index . 0) 0 -}}
+    {{ $srcValue := index (index . 0) 1 -}}
+    {{ $srcValueFull := $srcValue -}}
+    {{ $srcValueThumb := $srcValue -}}
+
+    {{/* Extract alt attribute for description */}}
+    {{ $altText := "" -}}
+    {{ with findRESubmatch `alt=['"]([^'"]+)['"]` $imgTag -}}
+      {{ $altText = index (index . 0) 1 -}}
+    {{ end -}}
+
+    {{/* Extract optional caption from data-caption attribute */}}
+    {{ $captionText := "" -}}
+    {{ with findRESubmatch `data-caption=['"]([^'"]+)['"]` $imgTag -}}
+      {{ $captionText = index (index . 0) 1 -}}
+    {{ end -}}
+
+    {{/* Process image based on source type */}}
+    {{ if or (hasPrefix $srcValue "http://") (hasPrefix $srcValue "https://") -}}
+      {{/* Remote image */}}
+      {{ with resources.GetRemote $srcValue -}}
+        {{ $srcValueFull = .RelPermalink -}}
+        {{ $srcValueThumb = .RelPermalink -}}
+      {{ end -}}
+    {{ else -}}
+      {{/* Local image - try page resource first */}}
+      {{ with $.Page.Resources.GetMatch $srcValue -}}
+        {{ $srcValueFull = .RelPermalink -}}
+        {{/* Create smaller thumbnail for carousel (300px width) */}}
+        {{ $thumb := .Resize "300x webp q85" -}}
+        {{ $srcValueThumb = $thumb.RelPermalink -}}
+      {{ else -}}
+        {{/* Try global resource */}}
+        {{ with resources.GetMatch $srcValue -}}
+          {{ $srcValueFull = .RelPermalink -}}
+          {{ $thumb := .Resize "300x webp q85" -}}
+          {{ $srcValueThumb = $thumb.RelPermalink -}}
+        {{ end -}}
+      {{ end -}}
+    {{ end -}}
+
+    {{/* Create wrapper link for lightbox */}}
+    {{ $lightboxAttrs := printf `href="%s" class="glightbox carousel-item" data-description="%s"` $srcValueFull $altText -}}
+    {{ if $captionText -}}
+      {{ $lightboxAttrs = printf `%s data-title="%s"` $lightboxAttrs $captionText -}}
+    {{ end -}}
+
+    {{/* Replace src with thumbnail and wrap in lightbox link */}}
+    {{ $newImgTag := replace $imgTag $srcAttr (printf `src="%s" loading="lazy"` $srcValueThumb) -}}
+    {{ $wrappedTag := printf `<a %s>%s</a>` $lightboxAttrs $newImgTag -}}
+    {{ $content = replace $content $imgTag $wrappedTag -}}
+  {{ end -}}
+{{ end -}}
+
+<div id="{{- $id -}}" class="lightbox-carousel">
+  <div class="carousel-container">
+    {{ $content | safeHTML -}}
+  </div>
+</div>

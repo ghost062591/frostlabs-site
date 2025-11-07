@@ -21,7 +21,16 @@ enableEmoji = true
   pagerSize = 100
 
 [imaging]
+  # Image processing configuration for optimal performance
   anchor = 'Center'
+  quality = 85
+  resampleFilter = 'Lanczos'
+  # WebP format for better compression
+  [imaging.exif]
+    disableDate = false
+    disableLatLong = true
+    includeFields = ''
+    excludeFields = ''
 
 [taxonomies]
   tag = "tags"

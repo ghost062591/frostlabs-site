@@ -1,0 +1,87 @@
+{{/*
+  Lightbox Gallery Shortcode - Display masonry gallery with GLightbox modal
+
+  Usage:
+    {{< lightbox-gallery >}}
+      <img src="image1.jpg" class="grid-w50" alt="Image 1" data-caption="Optional caption" />
+      <img src="image2.jpg" class="grid-w33 md:grid-w50" alt="Image 2" />
+    {{< /lightbox-gallery >}}
+
+  Features:
+    - Uses Packery.js for masonry layout
+    - Automatic thumbnail generation with Hugo image processing
+    - Click images to view in full resolution lightbox
+    - Keyboard navigation (arrows, ESC)
+    - Responsive grid classes (grid-w50, grid-w33, etc.)
+
+  Data attributes:
+    - data-caption: Optional caption shown in lightbox
+    - data-description: Additional description text
+*/}}
+
+{{ $id := delimit (slice "gallery" (partial "functions/uid.html" .)) "-" -}}
+{{ $content := .Inner -}}
+
+{{/* Find all img tags and process them */}}
+{{ range findRE `<img\s+[^>]*>` $content -}}
+  {{ $imgTag := . -}}
+
+  {{/* Extract src attribute */}}
+  {{ with findRESubmatch `src=['"]([^'"]+)['"]` $imgTag -}}
+    {{ $srcAttr := index (index . 0) 0 -}}
+    {{ $srcValue := index (index . 0) 1 -}}
+    {{ $srcValueFull := $srcValue -}}
+    {{ $srcValueThumb := $srcValue -}}
+
+    {{/* Extract alt attribute for description */}}
+    {{ $altText := "" -}}
+    {{ with findRESubmatch `alt=['"]([^'"]+)['"]` $imgTag -}}
+      {{ $altText = index (index . 0) 1 -}}
+    {{ end -}}
+
+    {{/* Extract optional caption from data-caption attribute */}}
+    {{ $captionText := "" -}}
+    {{ with findRESubmatch `data-caption=['"]([^'"]+)['"]` $imgTag -}}
+      {{ $captionText = index (index . 0) 1 -}}
+    {{ end -}}
+
+    {{/* Process image based on source type */}}
+    {{ if or (hasPrefix $srcValue "http://") (hasPrefix $srcValue "https://") -}}
+      {{/* Remote image */}}
+      {{ with resources.GetRemote $srcValue -}}
+        {{ $srcValueFull = .RelPermalink -}}
+        {{ $srcValueThumb = .RelPermalink -}}
+      {{ end -}}
+    {{ else -}}
+      {{/* Local image - try page resource first */}}
+      {{ with $.Page.Resources.GetMatch $srcValue -}}
+        {{ $srcValueFull = .RelPermalink -}}
+        {{/* Create optimized thumbnail (400px width for gallery, maintains aspect ratio) */}}
+        {{ $thumb := .Resize "400x webp q85" -}}
+        {{ $srcValueThumb = $thumb.RelPermalink -}}
+      {{ else -}}
+        {{/* Try global resource */}}
+        {{ with resources.GetMatch $srcValue -}}
+          {{ $srcValueFull = .RelPermalink -}}
+          {{ $thumb := .Resize "400x webp q85" -}}
+          {{ $srcValueThumb = $thumb.RelPermalink -}}
+        {{ end -}}
+      {{ end -}}
+    {{ end -}}
+
+    {{/* Create wrapper link for lightbox */}}
+    {{ $lightboxAttrs := printf `href="%s" class="glightbox" data-description="%s"` $srcValueFull $altText -}}
+    {{ if $captionText -}}
+      {{ $lightboxAttrs = printf `%s data-title="%s"` $lightboxAttrs $captionText -}}
+    {{ end -}}
+
+    {{/* Replace src with thumbnail and wrap in lightbox link */}}
+    {{ $newImgTag := replace $imgTag $srcAttr (printf `src="%s"` $srcValueThumb) -}}
+    {{ $wrappedTag := printf `<a %s>%s</a>` $lightboxAttrs $newImgTag -}}
+    {{ $content = replace $content $imgTag $wrappedTag -}}
+  {{ end -}}
+{{ end -}}
+
+<div id="{{- $id -}}" class="gallery lightbox-gallery">
+  {{ $content | safeHTML -}}
+</div>

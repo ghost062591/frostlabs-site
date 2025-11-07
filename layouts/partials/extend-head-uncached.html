@@ -1,0 +1,41 @@
+{{/*
+  Extended Head - GLightbox Integration
+
+  Conditionally loads GLightbox library and custom styles when
+  the lightbox or lightbox-gallery shortcodes are used on a page.
+*/}}
+
+{{ $alg := .Site.Params.fingerprintAlgorithm | default "sha256" }}
+
+{{/* Check if page uses lightbox shortcodes */}}
+{{ $hasLightbox := or (.HasShortcode "lightbox") (.HasShortcode "lightbox-gallery") (.HasShortcode "lightbox-carousel") }}
+{{ $hasCarousel := .HasShortcode "lightbox-carousel" }}
+
+{{ if $hasLightbox }}
+  {{/* Load GLightbox CSS */}}
+  {{ $glightboxCSS := resources.Get "lib/glightbox/glightbox.min.css" }}
+  {{ $customLightboxCSS := resources.Get "css/custom-lightbox.css" }}
+  {{ $cssResources := slice $glightboxCSS $customLightboxCSS }}
+
+  {{/* Add carousel CSS if needed */}}
+  {{ if $hasCarousel }}
+    {{ $carouselCSS := resources.Get "css/carousel.css" }}
+    {{ $cssResources = $cssResources | append $carouselCSS }}
+  {{ end }}
+
+  {{ $lightboxCSS := $cssResources | resources.Concat "css/lightbox.bundle.css" | resources.Minify | resources.Fingerprint $alg }}
+
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="{{ $lightboxCSS.RelPermalink }}"
+    integrity="{{ $lightboxCSS.Data.Integrity }}">
+
+  {{/* Load GLightbox JavaScript */}}
+  {{ $glightboxJS := resources.Get "lib/glightbox/glightbox.min.js" | resources.Fingerprint $alg }}
+  <script src="{{ $glightboxJS.RelPermalink }}" integrity="{{ $glightboxJS.Data.Integrity }}"></script>
+
+  {{/* Load initialization script */}}
+  {{ $glightboxInit := resources.Get "js/glightbox-init.js" | resources.Minify | resources.Fingerprint $alg }}
+  <script src="{{ $glightboxInit.RelPermalink }}" integrity="{{ $glightboxInit.Data.Integrity }}"></script>
+{{ end }}
