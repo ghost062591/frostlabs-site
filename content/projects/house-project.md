@@ -105,10 +105,21 @@ General site cleanup and preparation work.
 {{< /lightbox-carousel >}}
 
 ### ⛏ Site Prep
-Foot holes are dilled and filled with concrete. Driveway is surveyed for clearances. More trees removed. 
+Foot holes are dilled and filled with concrete. Driveway is surveyed for clearances. More trees removed.
 
 {{< lightbox-carousel >}}
-<img src="
+  <img src="photos/house-project/install-prep/install-prep_001.jpg" alt="Installation prep 1" data-caption="Preparing the foundation" />
+  <img src="photos/house-project/install-prep/install-prep_002.jpg" alt="Installation prep 2" data-caption="Site preparation" />
+  <img src="photos/house-project/install-prep/install-prep_003.jpg" alt="Installation prep 3" data-caption="Foundation work" />
+  <img src="photos/house-project/install-prep/install-prep_004.jpg" alt="Installation prep 4" data-caption="Getting ready" />
+  <img src="photos/house-project/install-prep/install-prep_005.jpg" alt="Installation prep 5" data-caption="Site setup" />
+  <img src="photos/house-project/install-prep/install-prep_006.jpg" alt="Installation prep 6" data-caption="Foundation detail" />
+  <img src="photos/house-project/install-prep/install-prep_007.jpg" alt="Installation prep 7" data-caption="Prep progress" />
+  <img src="photos/house-project/install-prep/install-prep_008.jpg" alt="Installation prep 8" data-caption="Almost ready" />
+  <img src="photos/house-project/install-prep/install-prep_009.jpg" alt="Installation prep 9" data-caption="Final preparations" />
+  <img src="photos/house-project/install-prep/install-prep_010.jpg" alt="Installation prep 10" data-caption="Site complete" />
+  <img src="photos/house-project/install-prep/install-prep_011.jpg" alt="Installation prep 11" data-caption="Ready for delivery" />
+  <img src="photos/house-project/install-prep/install-prep_012.jpg" alt="Installation prep 12" data-caption="All set" />
 {{< /lightbox-carousel >}}
 
 ### 🚚 Delivery
