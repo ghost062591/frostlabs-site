@@ -54,27 +54,16 @@ Final walkthrough inspection and receiving keys to completed home.
 
 {{< /timeline >}}
 
-## Photo Galleries by Phase
+## Photo Galleries
 
-Browse detailed photo galleries for each phase of the project. Each gallery contains comprehensive documentation of that specific stage of the build.
+### 📋 [First Look](planning/) 
+First consultation and tour of the home with Clayton Homes of Paradise PA.
 
-### 📋 [Planning & Variance (Sept 2023)](planning/) 
-Initial planning, township variance meeting, and first consultation with Clayton Homes of Paradise PA.
+### 🌲 [Land Clearing)](land-clearing/)
+Site preparation including tree/stump removal and general clearing.
 
-### 📐 [Engineering Phase (Dec 2023 - Sept 2025)](engineering/)
-Nearly 2 years of comprehensive engineering work, site design, and technical planning.
-
-### 🌲 [Land Clearing (March 2024 - Oct 2025)](land-clearing/)
-Site preparation including land clearing, grading, and subdivision planning.
-
-### 🚚 [Delivery & Installation (Oct 2025)](delivery/)
-The exciting milestone of home delivery by truck and installation on foundation.
-
-### 🎨 [Interior Finishing (Current)](interior/)
-Ongoing interior finishing work, DIY projects, and tree planting.
-
-### 🔧 [Upcoming Projects](upcoming/)
-Future site infrastructure: grading, stormwater, septic, utilities, and driveway.
+### 🚚 [Delivery)](delivery/)
+The exciting milestone of home delivery by truck and placed on footers.
 
 ## Project Phases
 
