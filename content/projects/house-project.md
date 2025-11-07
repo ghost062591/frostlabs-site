@@ -14,43 +14,6 @@ Welcome to my house project gallery! This page documents the journey of our new 
 
 What started with a township variance meeting in September 2023 has evolved into a comprehensive project involving site preparation, subdivision planning, and the installation of a prefab double-wide mobile home. This gallery showcases the construction progress, design decisions, DIY contributions, and the delivery & installation process.
 
-## Project Timeline
-
-{{< timeline >}}
-
-{{< timelineItem icon="clipboard-check" header="Planning & Variance" badge="Sept 2023" subheader="Project Initiation" >}}
-Initial planning and variance meeting with township to approve modular home placement and site plan. First meeting with Clayton Homes of Paradise PA.
-{{< /timelineItem >}}
-
-{{< timelineItem icon="drafting-compass" header="Engineering" badge="Dec 2023 - Sept 2025" subheader="Design & Planning" >}}
-Comprehensive engineering phase for site design, home specifications, and technical planning.
-{{< /timelineItem >}}
-
-{{< timelineItem icon="map" header="Land Clearing" badge="March 2024 - Oct 2025" subheader="Site Preparation" >}}
-Land clearing, grading, and site preparation work to ready the property for home installation.
-{{< /timelineItem >}}
-
-{{< timelineItem icon="bank" header="Loan Acquired" badge="Oct 2025" subheader="Financing" >}}
-Construction loan finalized and approved, enabling final stages of the project.
-{{< /timelineItem >}}
-
-{{< timelineItem icon="truck" header="Delivery & Install" badge="Oct 2025" subheader="Major Milestone" >}}
-Prefab double-wide mobile home delivered to site by truck and set on foundation. Home installation complete!
-{{< /timelineItem >}}
-
-{{< timelineItem icon="pencil" header="Interior Finishing" badge="Current" subheader="In Progress" >}}
-Ongoing interior finishing work and tree planting to make it home.
-{{< /timelineItem >}}
-
-{{< timelineItem icon="road" header="Site Infrastructure" badge="Upcoming" subheader="Next Phase" >}}
-Grading, stormwater system install, septic system, utility trenching and connections, driveway installation.
-{{< /timelineItem >}}
-
-{{< timelineItem icon="key" header="Final Walkthrough" badge="Future" subheader="Project Completion" >}}
-Final walkthrough inspection and receiving keys to completed home.
-{{< /timelineItem >}}
-
-{{< /timeline >}}
 
 ## Photo Galleries
 
