@@ -17,14 +17,60 @@ What started with a township variance meeting in September 2023 has evolved into
 
 ## Photo Galleries
 
-### 📋 [First Look](planning/) 
+### 📋 First Look 
 First consultation and tour of the home with Clayton Homes of Paradise PA.
 
-### 🌲 [Land Clearing](land-clearing/)
+
+
+### 🌲 Land Clearing
 Site preparation including tree/stump removal and general clearing.
 
-### 🚚 [Delivery](delivery/)
+### ⛏ Site Prep
+Foot holes are dilled and filled with concrete. Driveway is surveyed for clearances. More trees removed. 
+
+{{< lightbox-carousel >}}
+  <img src="photos/house-project/install-prep/install-prep_001.jpg" alt="Installation prep 1" data-caption="Preparing the foundation" />
+  <img src="photos/house-project/install-prep/install-prep_002.jpg" alt="Installation prep 2" data-caption="Site preparation" />
+  <img src="photos/house-project/install-prep/install-prep_003.jpg" alt="Installation prep 3" data-caption="Foundation work" />
+  <img src="photos/house-project/install-prep/install-prep_004.jpg" alt="Installation prep 4" data-caption="Getting ready" />
+  <img src="photos/house-project/install-prep/install-prep_005.jpg" alt="Installation prep 5" data-caption="Site setup" />
+  <img src="photos/house-project/install-prep/install-prep_006.jpg" alt="Installation prep 6" data-caption="Foundation detail" />
+  <img src="photos/house-project/install-prep/install-prep_007.jpg" alt="Installation prep 7" data-caption="Prep progress" />
+  <img src="photos/house-project/install-prep/install-prep_008.jpg" alt="Installation prep 8" data-caption="Almost ready" />
+  <img src="photos/house-project/install-prep/install-prep_009.jpg" alt="Installation prep 9" data-caption="Final preparations" />
+  <img src="photos/house-project/install-prep/install-prep_010.jpg" alt="Installation prep 10" data-caption="Site complete" />
+  <img src="photos/house-project/install-prep/install-prep_011.jpg" alt="Installation prep 11" data-caption="Ready for delivery" />
+  <img src="photos/house-project/install-prep/install-prep_012.jpg" alt="Installation prep 12" data-caption="All set" />
+{{< /lightbox-carousel >}}
+
+### 🚚 Delivery
 The exciting milestone of home delivery by truck and placed on footers.
+
+{{< lightbox-carousel >}}
+  <img src="photos/house-project/delivery/Delivery_001.jpg" alt="Delivery 1" data-caption="Home arrives on site" />
+  <img src="photos/house-project/delivery/Delivery_002.jpg" alt="Delivery 2" data-caption="First section delivered" />
+  <img src="photos/house-project/delivery/Delivery_003.jpg" alt="Delivery 3" data-caption="Maneuvering into position" />
+  <img src="photos/house-project/delivery/Delivery_004.jpg" alt="Delivery 4" data-caption="Careful placement" />
+  <img src="photos/house-project/delivery/Delivery_005.jpg" alt="Delivery 5" data-caption="Setting the first half" />
+  <img src="photos/house-project/delivery/Delivery_006.jpg" alt="Delivery 6" data-caption="Precision work" />
+  <img src="photos/house-project/delivery/Delivery_007.jpg" alt="Delivery 7" data-caption="Second section arrives" />
+  <img src="photos/house-project/delivery/Delivery_008.jpg" alt="Delivery 8" data-caption="Aligning the pieces" />
+  <img src="photos/house-project/delivery/Delivery_009.jpg" alt="Delivery 9" data-caption="Getting it perfect" />
+  <img src="photos/house-project/delivery/Delivery_010.jpg" alt="Delivery 10" data-caption="Lowering into place" />
+  <img src="photos/house-project/delivery/Delivery_011.jpg" alt="Delivery 11" data-caption="Almost there" />
+  <img src="photos/house-project/delivery/Delivery_012.jpg" alt="Delivery 12" data-caption="Final adjustments" />
+  <img src="photos/house-project/delivery/Delivery_013.jpg" alt="Delivery 13" data-caption="Both halves together" />
+  <img src="photos/house-project/delivery/Delivery_014.jpg" alt="Delivery 14" data-caption="Securing the structure" />
+  <img src="photos/house-project/delivery/Delivery_015.jpg" alt="Delivery 15" data-caption="Connection work" />
+  <img src="photos/house-project/delivery/Delivery_016.jpg" alt="Delivery 16" data-caption="Interior joining" />
+  <img src="photos/house-project/delivery/Delivery_017.jpg" alt="Delivery 17" data-caption="Tie-down installation" />
+  <img src="photos/house-project/delivery/Delivery_018.jpg" alt="Delivery 18" data-caption="Structural connections" />
+  <img src="photos/house-project/delivery/Delivery_019.jpg" alt="Delivery 19" data-caption="Weather-proofing begins" />
+  <img src="photos/house-project/delivery/Delivery_020.jpg" alt="Delivery 20" data-caption="Utility connections" />
+  <img src="photos/house-project/delivery/Delivery_021.jpg" alt="Delivery 21" data-caption="Final inspection" />
+  <img src="photos/house-project/delivery/Delivery_022.jpg" alt="Delivery 22" data-caption="Home complete" />
+  <img src="photos/house-project/delivery/Delivery_023.jpg" alt="Delivery 23" data-caption="Standing proud" />
+{{< /lightbox-carousel >}}
 
 ## Project Phases
 
