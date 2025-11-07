@@ -58,7 +58,7 @@ Final walkthrough inspection and receiving keys to completed home.
 
 Browse detailed photo galleries for each phase of the project. Each gallery contains comprehensive documentation of that specific stage of the build.
 
-### 📋 [Planning & Variance (Sept 2023)](planning/_index) 
+### 📋 [Planning & Variance (Sept 2023)](planning/) 
 Initial planning, township variance meeting, and first consultation with Clayton Homes of Paradise PA.
 
 ### 📐 [Engineering Phase (Dec 2023 - Sept 2025)](engineering/)
