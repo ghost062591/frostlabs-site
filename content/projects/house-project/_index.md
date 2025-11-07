@@ -18,9 +18,6 @@ What started with a township variance meeting in September 2023 has evolved into
 
 ## Project Timeline
 
-```
-
-```
 {{< timeline >}}
 
 {{< timelineItem icon="clipboard-check" header="Planning & Variance" badge="Sept 2023" subheader="Project Initiation" >}}
@@ -62,10 +59,10 @@ Final walkthrough inspection and receiving keys to completed home.
 ### 📋 [First Look](planning/) 
 First consultation and tour of the home with Clayton Homes of Paradise PA.
 
-### 🌲 [Land Clearing)](land-clearing/)
+### 🌲 [Land Clearing](land-clearing/)
 Site preparation including tree/stump removal and general clearing.
 
-### 🚚 [Delivery)](delivery/)
+### 🚚 [Delivery](delivery/)
 The exciting milestone of home delivery by truck and placed on footers.
 
 ## Project Phases
