@@ -18,6 +18,9 @@ What started with a township variance meeting in September 2023 has evolved into
 
 ## Project Timeline
 
+```
+
+```
 {{< timeline >}}
 
 {{< timelineItem icon="clipboard-check" header="Planning & Variance" badge="Sept 2023" subheader="Project Initiation" >}}
