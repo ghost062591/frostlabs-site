@@ -21,134 +21,134 @@ What started with a township variance meeting in September 2023 has evolved into
 First consultation and tour of the home with Clayton Homes of Paradise PA.
 
 {{< lightbox-carousel >}}
-  <img src="photos/house-project/first-look/first-look_001.jpg" alt="First look 1" data-caption="Initial consultation" />
-  <img src="photos/house-project/first-look/first-look_002.jpg" alt="First look 2" data-caption="Home tour begins" />
-  <img src="photos/house-project/first-look/first-look_003.jpg" alt="First look 3" data-caption="Exploring the layout" />
-  <img src="photos/house-project/first-look/first-look_004.jpg" alt="First look 4" data-caption="Interior walkthrough" />
-  <img src="photos/house-project/first-look/first-look_005.jpg" alt="First look 5" data-caption="Design options" />
-  <img src="photos/house-project/first-look/first-look_006.jpg" alt="First look 6" data-caption="Floor plan review" />
-  <img src="photos/house-project/first-look/first-look_007.jpg" alt="First look 7" data-caption="Feature highlights" />
-  <img src="photos/house-project/first-look/first-look_008.jpg" alt="First look 8" data-caption="Customization discussion" />
-  <img src="photos/house-project/first-look/first-look_009.jpg" alt="First look 9" data-caption="Kitchen details" />
-  <img src="photos/house-project/first-look/first-look_010.jpg" alt="First look 10" data-caption="Bathroom fixtures" />
-  <img src="photos/house-project/first-look/first-look_011.jpg" alt="First look 11" data-caption="Bedroom spaces" />
-  <img src="photos/house-project/first-look/first-look_012.jpg" alt="First look 12" data-caption="Living area" />
-  <img src="photos/house-project/first-look/first-look_013.jpg" alt="First look 13" data-caption="Storage solutions" />
-  <img src="photos/house-project/first-look/first-look_014.jpg" alt="First look 14" data-caption="Energy features" />
-  <img src="photos/house-project/first-look/first-look_015.jpg" alt="First look 15" data-caption="Final details" />
-  <img src="photos/house-project/first-look/first-look_016.jpg" alt="First look 16" data-caption="Exterior preview" />
-  <img src="photos/house-project/first-look/first-look_017.jpg" alt="First look 17" data-caption="Construction quality" />
-  <img src="photos/house-project/first-look/first-look_018.jpg" alt="First look 18" data-caption="Ready to customize" />
+  <img src="/photos/house-project/first-look/first-look_001.jpg" alt="First look 1" data-caption="Initial consultation" />
+  <img src="/photos/house-project/first-look/first-look_002.jpg" alt="First look 2" data-caption="Home tour begins" />
+  <img src="/photos/house-project/first-look/first-look_003.jpg" alt="First look 3" data-caption="Exploring the layout" />
+  <img src="/photos/house-project/first-look/first-look_004.jpg" alt="First look 4" data-caption="Interior walkthrough" />
+  <img src="/photos/house-project/first-look/first-look_005.jpg" alt="First look 5" data-caption="Design options" />
+  <img src="/photos/house-project/first-look/first-look_006.jpg" alt="First look 6" data-caption="Floor plan review" />
+  <img src="/photos/house-project/first-look/first-look_007.jpg" alt="First look 7" data-caption="Feature highlights" />
+  <img src="/photos/house-project/first-look/first-look_008.jpg" alt="First look 8" data-caption="Customization discussion" />
+  <img src="/photos/house-project/first-look/first-look_009.jpg" alt="First look 9" data-caption="Kitchen details" />
+  <img src="/photos/house-project/first-look/first-look_010.jpg" alt="First look 10" data-caption="Bathroom fixtures" />
+  <img src="/photos/house-project/first-look/first-look_011.jpg" alt="First look 11" data-caption="Bedroom spaces" />
+  <img src="/photos/house-project/first-look/first-look_012.jpg" alt="First look 12" data-caption="Living area" />
+  <img src="/photos/house-project/first-look/first-look_013.jpg" alt="First look 13" data-caption="Storage solutions" />
+  <img src="/photos/house-project/first-look/first-look_014.jpg" alt="First look 14" data-caption="Energy features" />
+  <img src="/photos/house-project/first-look/first-look_015.jpg" alt="First look 15" data-caption="Final details" />
+  <img src="/photos/house-project/first-look/first-look_016.jpg" alt="First look 16" data-caption="Exterior preview" />
+  <img src="/photos/house-project/first-look/first-look_017.jpg" alt="First look 17" data-caption="Construction quality" />
+  <img src="/photos/house-project/first-look/first-look_018.jpg" alt="First look 18" data-caption="Ready to customize" />
 {{< /lightbox-carousel >}}
 
 ### 🌲 Tree Removal
 Site preparation including tree/stump removal and general clearing.
 
 {{< lightbox-carousel >}}
-  <img src="photos/house-project/tree-removal/tree-removal_001.jpg" alt="Tree removal 1" data-caption="Initial tree assessment" />
-  <img src="photos/house-project/tree-removal/tree-removal_002.jpg" alt="Tree removal 2" data-caption="Marking trees for removal" />
-  <img src="photos/house-project/tree-removal/tree-removal_003.jpg" alt="Tree removal 3" data-caption="Equipment arrives" />
-  <img src="photos/house-project/tree-removal/tree-removal_004.jpg" alt="Tree removal 4" data-caption="Cutting begins" />
-  <img src="photos/house-project/tree-removal/tree-removal_005.jpg" alt="Tree removal 5" data-caption="Tree felling" />
-  <img src="photos/house-project/tree-removal/tree-removal_006.jpg" alt="Tree removal 6" data-caption="Processing logs" />
-  <img src="photos/house-project/tree-removal/tree-removal_007.jpg" alt="Tree removal 7" data-caption="Stump removal" />
-  <img src="photos/house-project/tree-removal/tree-removal_008.jpg" alt="Tree removal 8" data-caption="Clearing debris" />
-  <img src="photos/house-project/tree-removal/tree-removal_009.jpg" alt="Tree removal 9" data-caption="Progress update" />
-  <img src="photos/house-project/tree-removal/tree-removal_010.jpg" alt="Tree removal 10" data-caption="More clearing" />
-  <img src="photos/house-project/tree-removal/tree-removal_011.jpg" alt="Tree removal 11" data-caption="Nearly complete" />
-  <img src="photos/house-project/tree-removal/tree-removal_012.jpg" alt="Tree removal 12" data-caption="Land cleared" />
+  <img src="/photos/house-project/tree-removal/tree-removal_001.jpg" alt="Tree removal 1" data-caption="Initial tree assessment" />
+  <img src="/photos/house-project/tree-removal/tree-removal_002.jpg" alt="Tree removal 2" data-caption="Marking trees for removal" />
+  <img src="/photos/house-project/tree-removal/tree-removal_003.jpg" alt="Tree removal 3" data-caption="Equipment arrives" />
+  <img src="/photos/house-project/tree-removal/tree-removal_004.jpg" alt="Tree removal 4" data-caption="Cutting begins" />
+  <img src="/photos/house-project/tree-removal/tree-removal_005.jpg" alt="Tree removal 5" data-caption="Tree felling" />
+  <img src="/photos/house-project/tree-removal/tree-removal_006.jpg" alt="Tree removal 6" data-caption="Processing logs" />
+  <img src="/photos/house-project/tree-removal/tree-removal_007.jpg" alt="Tree removal 7" data-caption="Stump removal" />
+  <img src="/photos/house-project/tree-removal/tree-removal_008.jpg" alt="Tree removal 8" data-caption="Clearing debris" />
+  <img src="/photos/house-project/tree-removal/tree-removal_009.jpg" alt="Tree removal 9" data-caption="Progress update" />
+  <img src="/photos/house-project/tree-removal/tree-removal_010.jpg" alt="Tree removal 10" data-caption="More clearing" />
+  <img src="/photos/house-project/tree-removal/tree-removal_011.jpg" alt="Tree removal 11" data-caption="Nearly complete" />
+  <img src="/photos/house-project/tree-removal/tree-removal_012.jpg" alt="Tree removal 12" data-caption="Land cleared" />
 {{< /lightbox-carousel >}}
 
 ### 🚧 Site Clearing
 General site cleanup and preparation work.
 
 {{< lightbox-carousel >}}
-  <img src="photos/house-project/site-clearing/site-cleaning_001.jpg" alt="Site clearing 1" data-caption="Starting cleanup" />
-  <img src="photos/house-project/site-clearing/site-cleaning_002.jpg" alt="Site clearing 2" data-caption="Debris removal begins" />
-  <img src="photos/house-project/site-clearing/site-cleaning_003.jpg" alt="Site clearing 3" data-caption="Clearing brush" />
-  <img src="photos/house-project/site-clearing/site-cleaning_004.jpg" alt="Site clearing 4" data-caption="Grading work" />
-  <img src="photos/house-project/site-clearing/site-cleaning_005.jpg" alt="Site clearing 5" data-caption="Leveling terrain" />
-  <img src="photos/house-project/site-clearing/site-cleaning_006.jpg" alt="Site clearing 6" data-caption="Moving earth" />
-  <img src="photos/house-project/site-clearing/site-cleaning_007.jpg" alt="Site clearing 7" data-caption="Equipment in action" />
-  <img src="photos/house-project/site-clearing/site-cleaning_008.jpg" alt="Site clearing 8" data-caption="Clearing progress" />
-  <img src="photos/house-project/site-clearing/site-cleaning_009.jpg" alt="Site clearing 9" data-caption="More grading" />
-  <img src="photos/house-project/site-clearing/site-cleaning_010.jpg" alt="Site clearing 10" data-caption="Shaping the lot" />
-  <img src="photos/house-project/site-clearing/site-cleaning_011.jpg" alt="Site clearing 11" data-caption="Removing stumps" />
-  <img src="photos/house-project/site-clearing/site-cleaning_012.jpg" alt="Site clearing 12" data-caption="Cleanup continues" />
-  <img src="photos/house-project/site-clearing/site-cleaning_013.jpg" alt="Site clearing 13" data-caption="Site taking shape" />
-  <img src="photos/house-project/site-clearing/site-cleaning_014.jpg" alt="Site clearing 14" data-caption="Heavy machinery work" />
-  <img src="photos/house-project/site-clearing/site-cleaning_015.jpg" alt="Site clearing 15" data-caption="Excavation progress" />
-  <img src="photos/house-project/site-clearing/site-cleaning_016.jpg" alt="Site clearing 16" data-caption="Smoothing terrain" />
-  <img src="photos/house-project/site-clearing/site-cleaning_017.jpg" alt="Site clearing 17" data-caption="Debris hauling" />
-  <img src="photos/house-project/site-clearing/site-cleaning_018.jpg" alt="Site clearing 18" data-caption="Site preparation" />
-  <img src="photos/house-project/site-clearing/site-cleaning_019.jpg" alt="Site clearing 19" data-caption="Clearing milestone" />
-  <img src="photos/house-project/site-clearing/site-cleaning_020.jpg" alt="Site clearing 20" data-caption="Halfway done" />
-  <img src="photos/house-project/site-clearing/site-cleaning_021.jpg" alt="Site clearing 21" data-caption="More earth moving" />
-  <img src="photos/house-project/site-clearing/site-cleaning_022.jpg" alt="Site clearing 22" data-caption="Grading refinement" />
-  <img src="photos/house-project/site-clearing/site-cleaning_023.jpg" alt="Site clearing 23" data-caption="Site work progress" />
-  <img src="photos/house-project/site-clearing/site-cleaning_024.jpg" alt="Site clearing 24" data-caption="Lot shaping" />
-  <img src="photos/house-project/site-clearing/site-cleaning_025.jpg" alt="Site clearing 25" data-caption="Clearing detail" />
-  <img src="photos/house-project/site-clearing/site-cleaning_026.jpg" alt="Site clearing 26" data-caption="Final grading" />
-  <img src="photos/house-project/site-clearing/site-cleaning_027.jpg" alt="Site clearing 27" data-caption="Drainage work" />
-  <img src="photos/house-project/site-clearing/site-cleaning_028.jpg" alt="Site clearing 28" data-caption="Site refinement" />
-  <img src="photos/house-project/site-clearing/site-cleaning_029.jpg" alt="Site clearing 29" data-caption="Equipment positioning" />
-  <img src="photos/house-project/site-clearing/site-cleaning_030.jpg" alt="Site clearing 30" data-caption="Nearing completion" />
-  <img src="photos/house-project/site-clearing/site-cleaning_031.jpg" alt="Site clearing 31" data-caption="Final touches" />
-  <img src="photos/house-project/site-clearing/site-cleaning_032.jpg" alt="Site clearing 32" data-caption="Quality check" />
-  <img src="photos/house-project/site-clearing/site-cleaning_033.jpg" alt="Site clearing 33" data-caption="Site polish" />
-  <img src="photos/house-project/site-clearing/site-cleaning_034.jpg" alt="Site clearing 34" data-caption="Last cleanup" />
-  <img src="photos/house-project/site-clearing/site-cleaning_035.jpg" alt="Site clearing 35" data-caption="Almost finished" />
-  <img src="photos/house-project/site-clearing/site-cleaning_036.jpg" alt="Site clearing 36" data-caption="Final inspection" />
-  <img src="photos/house-project/site-clearing/site-cleaning_037.jpg" alt="Site clearing 37" data-caption="Cleanup complete" />
-  <img src="photos/house-project/site-clearing/site-cleaning_038.jpg" alt="Site clearing 38" data-caption="Site ready" />
-  <img src="photos/house-project/site-clearing/site-cleaning_039.jpg" alt="Site clearing 39" data-caption="Prepared for next phase" />
+  <img src="/photos/house-project/site-clearing/site-cleaning_001.jpg" alt="Site clearing 1" data-caption="Starting cleanup" />
+  <img src="/photos/house-project/site-clearing/site-cleaning_002.jpg" alt="Site clearing 2" data-caption="Debris removal begins" />
+  <img src="/photos/house-project/site-clearing/site-cleaning_003.jpg" alt="Site clearing 3" data-caption="Clearing brush" />
+  <img src="/photos/house-project/site-clearing/site-cleaning_004.jpg" alt="Site clearing 4" data-caption="Grading work" />
+  <img src="/photos/house-project/site-clearing/site-cleaning_005.jpg" alt="Site clearing 5" data-caption="Leveling terrain" />
+  <img src="/photos/house-project/site-clearing/site-cleaning_006.jpg" alt="Site clearing 6" data-caption="Moving earth" />
+  <img src="/photos/house-project/site-clearing/site-cleaning_007.jpg" alt="Site clearing 7" data-caption="Equipment in action" />
+  <img src="/photos/house-project/site-clearing/site-cleaning_008.jpg" alt="Site clearing 8" data-caption="Clearing progress" />
+  <img src="/photos/house-project/site-clearing/site-cleaning_009.jpg" alt="Site clearing 9" data-caption="More grading" />
+  <img src="/photos/house-project/site-clearing/site-cleaning_010.jpg" alt="Site clearing 10" data-caption="Shaping the lot" />
+  <img src="/photos/house-project/site-clearing/site-cleaning_011.jpg" alt="Site clearing 11" data-caption="Removing stumps" />
+  <img src="/photos/house-project/site-clearing/site-cleaning_012.jpg" alt="Site clearing 12" data-caption="Cleanup continues" />
+  <img src="/photos/house-project/site-clearing/site-cleaning_013.jpg" alt="Site clearing 13" data-caption="Site taking shape" />
+  <img src="/photos/house-project/site-clearing/site-cleaning_014.jpg" alt="Site clearing 14" data-caption="Heavy machinery work" />
+  <img src="/photos/house-project/site-clearing/site-cleaning_015.jpg" alt="Site clearing 15" data-caption="Excavation progress" />
+  <img src="/photos/house-project/site-clearing/site-cleaning_016.jpg" alt="Site clearing 16" data-caption="Smoothing terrain" />
+  <img src="/photos/house-project/site-clearing/site-cleaning_017.jpg" alt="Site clearing 17" data-caption="Debris hauling" />
+  <img src="/photos/house-project/site-clearing/site-cleaning_018.jpg" alt="Site clearing 18" data-caption="Site preparation" />
+  <img src="/photos/house-project/site-clearing/site-cleaning_019.jpg" alt="Site clearing 19" data-caption="Clearing milestone" />
+  <img src="/photos/house-project/site-clearing/site-cleaning_020.jpg" alt="Site clearing 20" data-caption="Halfway done" />
+  <img src="/photos/house-project/site-clearing/site-cleaning_021.jpg" alt="Site clearing 21" data-caption="More earth moving" />
+  <img src="/photos/house-project/site-clearing/site-cleaning_022.jpg" alt="Site clearing 22" data-caption="Grading refinement" />
+  <img src="/photos/house-project/site-clearing/site-cleaning_023.jpg" alt="Site clearing 23" data-caption="Site work progress" />
+  <img src="/photos/house-project/site-clearing/site-cleaning_024.jpg" alt="Site clearing 24" data-caption="Lot shaping" />
+  <img src="/photos/house-project/site-clearing/site-cleaning_025.jpg" alt="Site clearing 25" data-caption="Clearing detail" />
+  <img src="/photos/house-project/site-clearing/site-cleaning_026.jpg" alt="Site clearing 26" data-caption="Final grading" />
+  <img src="/photos/house-project/site-clearing/site-cleaning_027.jpg" alt="Site clearing 27" data-caption="Drainage work" />
+  <img src="/photos/house-project/site-clearing/site-cleaning_028.jpg" alt="Site clearing 28" data-caption="Site refinement" />
+  <img src="/photos/house-project/site-clearing/site-cleaning_029.jpg" alt="Site clearing 29" data-caption="Equipment positioning" />
+  <img src="/photos/house-project/site-clearing/site-cleaning_030.jpg" alt="Site clearing 30" data-caption="Nearing completion" />
+  <img src="/photos/house-project/site-clearing/site-cleaning_031.jpg" alt="Site clearing 31" data-caption="Final touches" />
+  <img src="/photos/house-project/site-clearing/site-cleaning_032.jpg" alt="Site clearing 32" data-caption="Quality check" />
+  <img src="/photos/house-project/site-clearing/site-cleaning_033.jpg" alt="Site clearing 33" data-caption="Site polish" />
+  <img src="/photos/house-project/site-clearing/site-cleaning_034.jpg" alt="Site clearing 34" data-caption="Last cleanup" />
+  <img src="/photos/house-project/site-clearing/site-cleaning_035.jpg" alt="Site clearing 35" data-caption="Almost finished" />
+  <img src="/photos/house-project/site-clearing/site-cleaning_036.jpg" alt="Site clearing 36" data-caption="Final inspection" />
+  <img src="/photos/house-project/site-clearing/site-cleaning_037.jpg" alt="Site clearing 37" data-caption="Cleanup complete" />
+  <img src="/photos/house-project/site-clearing/site-cleaning_038.jpg" alt="Site clearing 38" data-caption="Site ready" />
+  <img src="/photos/house-project/site-clearing/site-cleaning_039.jpg" alt="Site clearing 39" data-caption="Prepared for next phase" />
 {{< /lightbox-carousel >}}
 
 ### ⛏ Site Prep
 Foot holes are dilled and filled with concrete. Driveway is surveyed for clearances. More trees removed.
 
 {{< lightbox-carousel >}}
-  <img src="photos/house-project/install-prep/install-prep_001.jpg" alt="Installation prep 1" data-caption="Preparing the foundation" />
-  <img src="photos/house-project/install-prep/install-prep_002.jpg" alt="Installation prep 2" data-caption="Site preparation" />
-  <img src="photos/house-project/install-prep/install-prep_003.jpg" alt="Installation prep 3" data-caption="Foundation work" />
-  <img src="photos/house-project/install-prep/install-prep_004.jpg" alt="Installation prep 4" data-caption="Getting ready" />
-  <img src="photos/house-project/install-prep/install-prep_005.jpg" alt="Installation prep 5" data-caption="Site setup" />
-  <img src="photos/house-project/install-prep/install-prep_006.jpg" alt="Installation prep 6" data-caption="Foundation detail" />
-  <img src="photos/house-project/install-prep/install-prep_007.jpg" alt="Installation prep 7" data-caption="Prep progress" />
-  <img src="photos/house-project/install-prep/install-prep_008.jpg" alt="Installation prep 8" data-caption="Almost ready" />
-  <img src="photos/house-project/install-prep/install-prep_009.jpg" alt="Installation prep 9" data-caption="Final preparations" />
-  <img src="photos/house-project/install-prep/install-prep_010.jpg" alt="Installation prep 10" data-caption="Site complete" />
-  <img src="photos/house-project/install-prep/install-prep_011.jpg" alt="Installation prep 11" data-caption="Ready for delivery" />
-  <img src="photos/house-project/install-prep/install-prep_012.jpg" alt="Installation prep 12" data-caption="All set" />
+  <img src="/photos/house-project/install-prep/install-prep_001.jpg" alt="Installation prep 1" data-caption="Preparing the foundation" />
+  <img src="/photos/house-project/install-prep/install-prep_002.jpg" alt="Installation prep 2" data-caption="Site preparation" />
+  <img src="/photos/house-project/install-prep/install-prep_003.jpg" alt="Installation prep 3" data-caption="Foundation work" />
+  <img src="/photos/house-project/install-prep/install-prep_004.jpg" alt="Installation prep 4" data-caption="Getting ready" />
+  <img src="/photos/house-project/install-prep/install-prep_005.jpg" alt="Installation prep 5" data-caption="Site setup" />
+  <img src="/photos/house-project/install-prep/install-prep_006.jpg" alt="Installation prep 6" data-caption="Foundation detail" />
+  <img src="/photos/house-project/install-prep/install-prep_007.jpg" alt="Installation prep 7" data-caption="Prep progress" />
+  <img src="/photos/house-project/install-prep/install-prep_008.jpg" alt="Installation prep 8" data-caption="Almost ready" />
+  <img src="/photos/house-project/install-prep/install-prep_009.jpg" alt="Installation prep 9" data-caption="Final preparations" />
+  <img src="/photos/house-project/install-prep/install-prep_010.jpg" alt="Installation prep 10" data-caption="Site complete" />
+  <img src="/photos/house-project/install-prep/install-prep_011.jpg" alt="Installation prep 11" data-caption="Ready for delivery" />
+  <img src="/photos/house-project/install-prep/install-prep_012.jpg" alt="Installation prep 12" data-caption="All set" />
 {{< /lightbox-carousel >}}
 
 ### 🚚 Delivery
 The exciting milestone of home delivery by truck and placed on footers.
 
 {{< lightbox-carousel >}}
-  <img src="photos/house-project/delivery/Delivery_001.jpg" alt="Delivery 1" data-caption="Home arrives on site" />
-  <img src="photos/house-project/delivery/Delivery_002.jpg" alt="Delivery 2" data-caption="First section delivered" />
-  <img src="photos/house-project/delivery/Delivery_003.jpg" alt="Delivery 3" data-caption="Maneuvering into position" />
-  <img src="photos/house-project/delivery/Delivery_004.jpg" alt="Delivery 4" data-caption="Careful placement" />
-  <img src="photos/house-project/delivery/Delivery_005.jpg" alt="Delivery 5" data-caption="Setting the first half" />
-  <img src="photos/house-project/delivery/Delivery_006.jpg" alt="Delivery 6" data-caption="Precision work" />
-  <img src="photos/house-project/delivery/Delivery_007.jpg" alt="Delivery 7" data-caption="Second section arrives" />
-  <img src="photos/house-project/delivery/Delivery_008.jpg" alt="Delivery 8" data-caption="Aligning the pieces" />
-  <img src="photos/house-project/delivery/Delivery_009.jpg" alt="Delivery 9" data-caption="Getting it perfect" />
-  <img src="photos/house-project/delivery/Delivery_010.jpg" alt="Delivery 10" data-caption="Lowering into place" />
-  <img src="photos/house-project/delivery/Delivery_011.jpg" alt="Delivery 11" data-caption="Almost there" />
-  <img src="photos/house-project/delivery/Delivery_012.jpg" alt="Delivery 12" data-caption="Final adjustments" />
-  <img src="photos/house-project/delivery/Delivery_013.jpg" alt="Delivery 13" data-caption="Both halves together" />
-  <img src="photos/house-project/delivery/Delivery_014.jpg" alt="Delivery 14" data-caption="Securing the structure" />
-  <img src="photos/house-project/delivery/Delivery_015.jpg" alt="Delivery 15" data-caption="Connection work" />
-  <img src="photos/house-project/delivery/Delivery_016.jpg" alt="Delivery 16" data-caption="Interior joining" />
-  <img src="photos/house-project/delivery/Delivery_017.jpg" alt="Delivery 17" data-caption="Tie-down installation" />
-  <img src="photos/house-project/delivery/Delivery_018.jpg" alt="Delivery 18" data-caption="Structural connections" />
-  <img src="photos/house-project/delivery/Delivery_019.jpg" alt="Delivery 19" data-caption="Weather-proofing begins" />
-  <img src="photos/house-project/delivery/Delivery_020.jpg" alt="Delivery 20" data-caption="Utility connections" />
-  <img src="photos/house-project/delivery/Delivery_021.jpg" alt="Delivery 21" data-caption="Final inspection" />
-  <img src="photos/house-project/delivery/Delivery_022.jpg" alt="Delivery 22" data-caption="Home complete" />
-  <img src="photos/house-project/delivery/Delivery_023.jpg" alt="Delivery 23" data-caption="Standing proud" />
+  <img src="/photos/house-project/delivery/Delivery_001.jpg" alt="Delivery 1" data-caption="Home arrives on site" />
+  <img src="/photos/house-project/delivery/Delivery_002.jpg" alt="Delivery 2" data-caption="First section delivered" />
+  <img src="/photos/house-project/delivery/Delivery_003.jpg" alt="Delivery 3" data-caption="Maneuvering into position" />
+  <img src="/photos/house-project/delivery/Delivery_004.jpg" alt="Delivery 4" data-caption="Careful placement" />
+  <img src="/photos/house-project/delivery/Delivery_005.jpg" alt="Delivery 5" data-caption="Setting the first half" />
+  <img src="/photos/house-project/delivery/Delivery_006.jpg" alt="Delivery 6" data-caption="Precision work" />
+  <img src="/photos/house-project/delivery/Delivery_007.jpg" alt="Delivery 7" data-caption="Second section arrives" />
+  <img src="/photos/house-project/delivery/Delivery_008.jpg" alt="Delivery 8" data-caption="Aligning the pieces" />
+  <img src="/photos/house-project/delivery/Delivery_009.jpg" alt="Delivery 9" data-caption="Getting it perfect" />
+  <img src="/photos/house-project/delivery/Delivery_010.jpg" alt="Delivery 10" data-caption="Lowering into place" />
+  <img src="/photos/house-project/delivery/Delivery_011.jpg" alt="Delivery 11" data-caption="Almost there" />
+  <img src="/photos/house-project/delivery/Delivery_012.jpg" alt="Delivery 12" data-caption="Final adjustments" />
+  <img src="/photos/house-project/delivery/Delivery_013.jpg" alt="Delivery 13" data-caption="Both halves together" />
+  <img src="/photos/house-project/delivery/Delivery_014.jpg" alt="Delivery 14" data-caption="Securing the structure" />
+  <img src="/photos/house-project/delivery/Delivery_015.jpg" alt="Delivery 15" data-caption="Connection work" />
+  <img src="/photos/house-project/delivery/Delivery_016.jpg" alt="Delivery 16" data-caption="Interior joining" />
+  <img src="/photos/house-project/delivery/Delivery_017.jpg" alt="Delivery 17" data-caption="Tie-down installation" />
+  <img src="/photos/house-project/delivery/Delivery_018.jpg" alt="Delivery 18" data-caption="Structural connections" />
+  <img src="/photos/house-project/delivery/Delivery_019.jpg" alt="Delivery 19" data-caption="Weather-proofing begins" />
+  <img src="/photos/house-project/delivery/Delivery_020.jpg" alt="Delivery 20" data-caption="Utility connections" />
+  <img src="/photos/house-project/delivery/Delivery_021.jpg" alt="Delivery 21" data-caption="Final inspection" />
+  <img src="/photos/house-project/delivery/Delivery_022.jpg" alt="Delivery 22" data-caption="Home complete" />
+  <img src="/photos/house-project/delivery/Delivery_023.jpg" alt="Delivery 23" data-caption="Standing proud" />
 {{< /lightbox-carousel >}}
 
 ## Project Phases
