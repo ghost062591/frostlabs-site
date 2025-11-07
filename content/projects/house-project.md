@@ -29,18 +29,7 @@ Site preparation including tree/stump removal and general clearing.
 Foot holes are dilled and filled with concrete. Driveway is surveyed for clearances. More trees removed. 
 
 {{< lightbox-carousel >}}
-![[install-prep_001.jpg]]
-![[install-prep_002.jpg]]
-![[install-prep_004.jpg]]
-![[install-prep_003.jpg]]
-![[install-prep_012.jpg]]
-![[install-prep_005.jpg]]
-![[install-prep_006.jpg]]
-![[install-prep_007.jpg]]
-![[install-prep_008.jpg]]
-![[install-prep_009.jpg]]
-![[install-prep_010.jpg]]
-![[install-prep_011.jpg]]
+<img src="
 {{< /lightbox-carousel >}}
 
 ### 🚚 Delivery
