@@ -2,9 +2,16 @@
   Lightbox Carousel Shortcode - Display scrollable carousel with GLightbox modal
 
   Usage:
+    Local images:
     {{< lightbox-carousel >}}
       <img src="image1.jpg" alt="Image 1" data-caption="Optional caption" />
       <img src="image2.jpg" alt="Image 2" data-caption="Second image" />
+    {{< /lightbox-carousel >}}
+
+    Cloudflare Images:
+    {{< lightbox-carousel >}}
+      <img src="cf:image-id-1" alt="Image 1" data-caption="Optional caption" />
+      <img src="cf:image-id-2" alt="Image 2" data-caption="Second image" />
     {{< /lightbox-carousel >}}
 
   Features:
@@ -13,6 +20,7 @@
     - Click to view full resolution in lightbox
     - Smooth scrolling with scroll snap
     - Mobile-friendly touch scrolling
+    - Supports Cloudflare Images with "cf:image-id" syntax
 */}}
 
 {{ $id := delimit (slice "carousel" (partial "functions/uid.html" .)) "-" -}}
@@ -42,7 +50,17 @@
     {{ end -}}
 
     {{/* Process image based on source type */}}
-    {{ if or (hasPrefix $srcValue "http://") (hasPrefix $srcValue "https://") -}}
+    {{ if hasPrefix $srcValue "cf:" -}}
+      {{/* Cloudflare Images */}}
+      {{ $cfImageID := strings.TrimPrefix "cf:" $srcValue -}}
+      {{ $accountHash := $.Site.Params.cloudflare.images.accountHash | default "" -}}
+      {{ if $accountHash -}}
+        {{ $srcValueFull = printf "https://imagedelivery.net/%s/%s/public" $accountHash $cfImageID -}}
+        {{ $srcValueThumb = printf "https://imagedelivery.net/%s/%s/thumbnail" $accountHash $cfImageID -}}
+      {{ else -}}
+        {{ errorf "Cloudflare Images account hash not set. Add 'cloudflare.images.accountHash' to params.toml" -}}
+      {{ end -}}
+    {{ else if or (hasPrefix $srcValue "http://") (hasPrefix $srcValue "https://") -}}
       {{/* Remote image */}}
       {{ with resources.GetRemote $srcValue -}}
         {{ $srcValueFull = .RelPermalink -}}

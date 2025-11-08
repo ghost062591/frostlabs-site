@@ -1,0 +1,81 @@
+{{/*
+  Cloudflare Images Shortcode
+
+  Usage in Markdown:
+    {{< cfimg id="image-id" variant="public" alt="Description" >}}
+    {{< cfimg id="image-id" width="800" format="webp" alt="Description" >}}
+    {{< cfimg id="image-id" variant="thumbnail" caption="Optional caption" >}}
+
+  Parameters:
+    - id (required): Cloudflare Image ID
+    - variant (optional): Named variant from Cloudflare dashboard (default: "public")
+    - width (optional): Custom width for on-demand resizing
+    - height (optional): Custom height for on-demand resizing
+    - format (optional): Image format (webp, avif, jpeg, png)
+    - quality (optional): Image quality 1-100 (default: 85)
+    - fit (optional): Resize mode (scale-down, contain, cover, crop, pad)
+    - alt (optional): Alt text for accessibility
+    - caption (optional): Caption text displayed below image
+    - class (optional): Additional CSS classes
+    - loading (optional): Loading strategy (lazy, eager) - default: lazy
+
+  Cloudflare Image URL format:
+    https://imagedelivery.net/<account-hash>/<image-id>/<variant>
+    https://imagedelivery.net/<account-hash>/<image-id>/<variant>?width=800&format=webp
+*/}}
+
+{{- $id := .Get "id" -}}
+{{- $variant := .Get "variant" | default "public" -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $caption := .Get "caption" | default "" -}}
+{{- $class := .Get "class" | default "" -}}
+{{- $loading := .Get "loading" | default "lazy" -}}
+
+{{/* Get Cloudflare account hash from site params */}}
+{{- $accountHash := .Site.Params.cloudflare.images.accountHash | default "" -}}
+
+{{- if not $accountHash -}}
+  {{- errorf "Cloudflare Images account hash not set. Add 'cloudflare.images.accountHash' to params.toml" -}}
+{{- end -}}
+
+{{- if not $id -}}
+  {{- errorf "cfimg shortcode requires 'id' parameter" -}}
+{{- end -}}
+
+{{/* Build base URL */}}
+{{- $baseURL := printf "https://imagedelivery.net/%s/%s/%s" $accountHash $id $variant -}}
+
+{{/* Build query parameters for custom transforms */}}
+{{- $params := slice -}}
+{{- with .Get "width" -}}
+  {{- $params = $params | append (printf "width=%s" .) -}}
+{{- end -}}
+{{- with .Get "height" -}}
+  {{- $params = $params | append (printf "height=%s" .) -}}
+{{- end -}}
+{{- with .Get "format" -}}
+  {{- $params = $params | append (printf "format=%s" .) -}}
+{{- end -}}
+{{- with .Get "quality" -}}
+  {{- $params = $params | append (printf "quality=%s" .) -}}
+{{- end -}}
+{{- with .Get "fit" -}}
+  {{- $params = $params | append (printf "fit=%s" .) -}}
+{{- end -}}
+
+{{/* Construct final URL */}}
+{{- $imageURL := $baseURL -}}
+{{- if $params -}}
+  {{- $queryString := delimit $params "&" -}}
+  {{- $imageURL = printf "%s?%s" $baseURL $queryString -}}
+{{- end -}}
+
+{{/* Render image */}}
+{{- if $caption -}}
+<figure class="cfimg-figure {{ $class }}">
+  <img src="{{ $imageURL }}" alt="{{ $alt }}" loading="{{ $loading }}" class="cfimg">
+  <figcaption>{{ $caption }}</figcaption>
+</figure>
+{{- else -}}
+<img src="{{ $imageURL }}" alt="{{ $alt }}" loading="{{ $loading }}" class="cfimg {{ $class }}">
+{{- end -}}
