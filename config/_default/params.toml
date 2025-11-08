@@ -84,7 +84,7 @@ background = "/img/site/background-no-snowflakes.png"
   showAuthorsBadges = false
   showWordCount = true
   showSummary = true
-  sharingLinks = ["linkedin", "twitter", "reddit", "pinterest", "facebook", "email"]
+  sharingLinks = ["facebook"]
 
 [list]
   showHero = true
