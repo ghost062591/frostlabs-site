@@ -24,7 +24,7 @@ NC='\033[0m'
 
 # Configuration
 PROJECT_NAME="frostlabs-site"
-BRANCH="main"
+BRANCH="main"  # Production branch
 
 # Cloudflare credentials
 export CLOUDFLARE_ACCOUNT_ID="478c5f86904a5dd27b66b051cde8d51a"
