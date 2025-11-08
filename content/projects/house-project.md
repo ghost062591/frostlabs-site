@@ -14,6 +14,18 @@ Welcome to my house project gallery! This page documents the journey of our new 
 
 What started with a township variance meeting in September 2023 has evolved into a comprehensive project involving site preparation, subdivision planning, and the installation of a prefab double-wide mobile home. This gallery showcases the construction progress, design decisions, DIY contributions, and the delivery & installation process.
 
+## Technical Details
+
+| Category | Details |
+|----------|---------|
+| **Project Start** | September 2023 (Township variance meeting) |
+| **Home Model** | Clayton Homes: Morocco |
+| **Builder** | Clayton Homes of Paradise PA |
+| **Current Status** | Interior/Exterior Finishing (Active) |
+| **Site Work** | Subdivision planning, clearing, and prep complete |
+| **Square Footage** | 1,791 |
+| **Bedrooms/Baths** | 4/2 |
+| **Lot Size** | 1.25 Acre / 54,450 sq/ft|
 
 ## Photo Galleries
 
@@ -195,19 +207,6 @@ The exciting milestone of home delivery by truck and placed on footers.
 - Final walkthrough inspection
 - Receiving keys
 - Move-in ready!
-
-## Technical Details
-
-| Category | Details |
-|----------|---------|
-| **Project Start** | September 2023 (Township variance meeting) |
-| **Home Type** | Clayton Homes Prefab Double-Wide Mobile |
-| **Builder** | Clayton Homes of Paradise PA |
-| **Current Status** | Interior/Exterior Finishing (Active) |
-| **Site Work** | Subdivision planning, clearing, and prep complete |
-| **Square Footage** | 1,791 |
-| **Bedrooms/Baths** | 4/2 |
-| **Lot Size** | 1.25 Acre / 54,450 sq/ft|
 
 ## Key Milestones
 
