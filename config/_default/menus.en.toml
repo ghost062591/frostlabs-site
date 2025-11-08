@@ -13,11 +13,6 @@
   pageRef = "homelab"
   weight = 30
 
-[[main]]
-  name = "Gallery"
-  pageRef = "gallery"
-  weight = 40
-
 [[footer]]
   name = "Tags"
   pageRef = "tags"
