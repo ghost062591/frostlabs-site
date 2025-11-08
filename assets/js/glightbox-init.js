@@ -36,6 +36,10 @@ document.addEventListener('DOMContentLoaded', function() {
       },
       onClose: function() {
         console.log('Lightbox closed');
+        // Remove focus from the clicked element to prevent it staying visible
+        if (document.activeElement) {
+          document.activeElement.blur();
+        }
       }
     });
 

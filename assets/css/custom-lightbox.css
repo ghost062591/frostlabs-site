@@ -65,6 +65,27 @@
   transform: scale(1.02);
 }
 
+/* Disable zoom on carousel thumbnails - only allow in lightbox */
+.lightbox-carousel img,
+.carousel-item img {
+  cursor: pointer !important;
+}
+
+.lightbox-carousel a,
+.carousel-item {
+  cursor: pointer !important;
+}
+
+/* Disable Blowfish theme's zoom.js on carousel images */
+.lightbox-carousel img.nozoom,
+.carousel-container img {
+  pointer-events: auto !important;
+}
+
+.lightbox-carousel .nozoom {
+  cursor: pointer !important;
+}
+
 /* Loading spinner - match theme colors */
 .gloader {
   border: 3px solid rgba(255, 255, 255, 0.2) !important;

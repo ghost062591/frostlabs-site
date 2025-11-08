@@ -92,7 +92,7 @@
     {{ end -}}
 
     {{/* Replace src with thumbnail and wrap in lightbox link */}}
-    {{ $newImgTag := replace $imgTag $srcAttr (printf `src="%s" loading="lazy"` $srcValueThumb) -}}
+    {{ $newImgTag := replace $imgTag $srcAttr (printf `src="%s" loading="lazy" class="nozoom"` $srcValueThumb) -}}
     {{ $wrappedTag := printf `<a %s>%s</a>` $lightboxAttrs $newImgTag -}}
     {{ $content = replace $content $imgTag $wrappedTag -}}
   {{ end -}}
