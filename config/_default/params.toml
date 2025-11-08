@@ -112,7 +112,7 @@ background = "/img/site/background-no-snowflakes.png"
   heroStyle = "background"
 
 [term]
-  showHero = true 
+  showHero = true
   heroStyle = "background"
   showBreadcrumbs = false
   showViews = false
@@ -121,3 +121,7 @@ background = "/img/site/background-no-snowflakes.png"
   groupByYear = false
   cardView = false
   cardViewScreenWidth = false
+
+[cloudflare]
+  [cloudflare.images]
+    accountHash = "sFNd_vzb3SAtjIIqbbqbmQ"

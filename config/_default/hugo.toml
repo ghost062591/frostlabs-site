@@ -1,4 +1,4 @@
-baseURL = "https://ghost062591.github.io/frostlabs-site"
+baseURL = "https://blog.frostlabs.me"
 languageCode = "en"
 title = "FrostLabs"
 theme = "blowfish"
