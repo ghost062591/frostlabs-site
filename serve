@@ -1,0 +1,4 @@
+#!/bin/bash
+# Quick local preview server for headless system
+# Access at: http://10.0.4.11:1313
+hugo server -D --bind 10.0.4.11 --baseURL http://10.0.4.11:1313

@@ -1,0 +1,3 @@
+#!/bin/bash
+# Quick publish shortcut - just run ./publish from your vault root
+./scripts/publish.sh "$@"

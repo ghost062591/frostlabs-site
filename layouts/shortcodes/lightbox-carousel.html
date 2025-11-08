@@ -55,7 +55,9 @@
       {{ $cfImageID := strings.TrimPrefix "cf:" $srcValue -}}
       {{ $accountHash := $.Site.Params.cloudflare.images.accountHash | default "" -}}
       {{ if $accountHash -}}
-        {{ $srcValueFull = printf "https://imagedelivery.net/%s/%s/public" $accountHash $cfImageID -}}
+        {{/* Use Pages Function proxy for full-size to avoid CSP issues in lightbox */}}
+        {{ $srcValueFull = printf "/api/image/%s/public" $cfImageID -}}
+        {{/* Thumbnail can use direct Cloudflare Images URL (displayed inline, no CSP issues) */}}
         {{ $srcValueThumb = printf "https://imagedelivery.net/%s/%s/thumbnail" $accountHash $cfImageID -}}
       {{ else -}}
         {{ errorf "Cloudflare Images account hash not set. Add 'cloudflare.images.accountHash' to params.toml" -}}
@@ -84,7 +86,7 @@
     {{ end -}}
 
     {{/* Create wrapper link for lightbox */}}
-    {{ $lightboxAttrs := printf `href="%s" class="glightbox carousel-item" data-description="%s"` $srcValueFull $altText -}}
+    {{ $lightboxAttrs := printf `href="%s" class="glightbox carousel-item" data-type="image" data-gallery="%s" data-description="%s"` $srcValueFull $id $altText -}}
     {{ if $captionText -}}
       {{ $lightboxAttrs = printf `%s data-title="%s"` $lightboxAttrs $captionText -}}
     {{ end -}}
