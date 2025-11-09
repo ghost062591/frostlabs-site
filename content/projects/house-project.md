@@ -7,7 +7,7 @@ tags:
 showTableOfContents: true
 description: Comprehensive engineering and design work spanning nearly 2 years
 ---
-{{< emby-iframe url="https://movies.frostlabs.me/web/modules/videoplayer/index.html?serverId=e2e4fc330d764d7582d60638fd765c21&itemId=3922" size="medium" >}}
+<iframe title="Delivery-day" width="560" height="315" src="https://videos.frostlabs.me/videos/embed/ukiz1jZ22VPQWkAYqNQQdH?warningTitle=0&amp;peertubeLink=0&amp;p2p=0" allow="fullscreen" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" style="border: 0px;"></iframe>
 
 ## Project Overview
 
