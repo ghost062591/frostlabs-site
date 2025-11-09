@@ -7,6 +7,7 @@ tags:
 showTableOfContents: true
 description: Comprehensive engineering and design work spanning nearly 2 years
 ---
+{{< youtubeLite id="YT6jXJ_ffMs" label="Delivery Day!" >}}
 
 ## Project Overview
 
