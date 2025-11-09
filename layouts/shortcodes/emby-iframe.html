@@ -1,0 +1,22 @@
+{{ $size := .Get "size" | default "medium" }}
+{{ $maxWidth := "560px" }}
+
+{{ if eq $size "small" }}
+  {{ $maxWidth = "420px" }}
+{{ else if eq $size "large" }}
+  {{ $maxWidth = "720px" }}
+{{ else if eq $size "full" }}
+  {{ $maxWidth = "100%" }}
+{{ end }}
+
+<div class="emby-embed" style="position: relative; width: 100%; max-width: 560px; margin: 1.5rem auto;">
+  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 12px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);">
+    <iframe 
+      src="{{ .Get 0 }}"
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; border-radius: 12px;"
+      allowfullscreen
+      loading="lazy"
+      title="Emby Video Player">
+    </iframe>
+  </div>
+</div>
