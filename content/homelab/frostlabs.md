@@ -1,6 +1,6 @@
 ---
 title: "Frostlabs: Complete Docker Swarm"
-date: 2025-10-29T00:00:00Z
+date: 2025-11-16T00:00:00Z
 draft: false
 tags:
   - docker
