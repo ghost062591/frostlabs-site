@@ -13,4 +13,4 @@ This site is built using **Hugo**, a static site generator, and hosted on **Clou
 
 ## About Me
 
-When I'm not working on this site, I'm an amateur landscape and astrophotographer, homelabber, and gamer. I'm also a husband and father to two beautiful girls.
+When I'm not working on this site, I'm an amateur nature and astro photographer, homelabber, and gamer. I'm also a husband and father.
