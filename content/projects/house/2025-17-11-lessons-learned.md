@@ -1,6 +1,6 @@
 ---
 title: Lessons Learned
-date: 2024-11-17T00:00:00Z
+date: 2025-11-17T00:00:00Z
 tags:
   - house
   - reflection

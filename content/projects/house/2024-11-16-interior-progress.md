@@ -1,6 +1,6 @@
 ---
 title: "Interior Progress Update"
-date: 2024-11-16T00:00:00Z
+date: 2025-11-16T00:00:00Z
 description: "First week of interior work complete - flooring started and paint colors selected"
 tags:
   - house
