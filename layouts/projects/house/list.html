@@ -1,0 +1,60 @@
+{{ define "main" }}
+  <article>
+    <header class="max-w-prose">
+      {{ if .Params.showBreadcrumbs | default (.Site.Params.article.showBreadcrumbs | default false) }}
+        {{ partial "breadcrumbs.html" . }}
+      {{ end }}
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        {{ .Title | emojify }}
+      </h1>
+      <div class="mt-1 mb-2 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+        {{ partial "article-meta/basic.html" (dict "context" . "scope" "single") }}
+      </div>
+      {{ with .Params.description }}
+        <div class="mt-4 mb-6 text-xl text-neutral-700 dark:text-neutral-300">
+          {{ . | emojify }}
+        </div>
+      {{ end }}
+    </header>
+
+    <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+      {{ if .Params.showTableOfContents | default (.Site.Params.article.showTableOfContents | default false) }}
+      <div class="order-first px-0 lg:order-last lg:max-w-xs ltr:lg:pl-8 rtl:lg:pr-8">
+        <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-10">
+          {{ partial "toc.html" . }}
+        </div>
+      </div>
+      {{ end }}
+      <div class="min-w-0 min-h-0 max-w-prose grow">
+        {{ .Content | emojify }}
+
+        <!-- List child pages (updates) -->
+        {{ $pages := .Pages.ByDate.Reverse }}
+        {{ if gt (len $pages) 0 }}
+          <div class="mt-12 space-y-6">
+            {{ range $pages }}
+              <article class="p-6 border rounded-lg border-neutral-200 dark:border-neutral-700">
+                <h3 class="mt-0 mb-2">
+                  <a href="{{ .RelPermalink }}" class="no-underline hover:underline">
+                    {{ .Title | emojify }}
+                  </a>
+                </h3>
+                <div class="mb-3 text-sm text-neutral-500 dark:text-neutral-400">
+                  <time datetime="{{ .Date.Format "2006-01-02" }}">
+                    {{ .Date.Format "January 2, 2006" }}
+                  </time>
+                </div>
+                {{ with .Params.description }}
+                  <p class="text-neutral-700 dark:text-neutral-300">{{ . }}</p>
+                {{ end }}
+                <a href="{{ .RelPermalink }}" class="text-sm font-medium text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300">
+                  Read more →
+                </a>
+              </article>
+            {{ end }}
+          </div>
+        {{ end }}
+      </div>
+    </section>
+  </article>
+{{ end }}

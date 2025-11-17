@@ -276,3 +276,9 @@ Despite all the challenges, we're excited about the outcome and grateful to be n
 - [ ] Install deck or patio
 - [ ] Final paint touch-ups
 - [ ] Smart home system setup
+
+---
+
+## Project Updates
+
+Follow along as we document the journey with regular updates on progress, challenges, and milestones.
