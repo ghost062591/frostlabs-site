@@ -6,6 +6,7 @@ tags:
   - workflow
 showTableOfContents: true
 description: Comprehensive engineering and design work spanning nearly 2 years
+layout: single
 ---
 ## Project Overview
 
