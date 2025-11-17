@@ -144,3 +144,4 @@ The exciting milestone of home delivery by truck and placed on footers.
   <img src="cf:house-project-delivery-Delivery_022" alt="Delivery 22" data-caption="Home complete" />
   <img src="cf:house-project-delivery-Delivery_023" alt="Delivery 23" data-caption="Standing proud" />
 {{< /lightbox-carousel >}}
+
