@@ -94,4 +94,6 @@ What started with a township variance meeting in September 2023 has evolved into
 	- ⏳ Driveway
 	- 🔄 Debris cleanup: fallen trees, tree branches, stumps.
 - ⏳ Final walkthrough and receiving keys
+
+**[Back to Projects](/projects)**
 ---
