@@ -34,7 +34,20 @@ You need to create an OAuth2/OIDC Provider and Application in Authentik:
    - **Launch URL**: `https://blog.frostlabs.me/admin/`
 4. Click **Create**
 
-### 3. Configure Cloudflare Pages Environment Variables
+### 3. Create GitHub Personal Access Token
+
+The CMS needs a GitHub token to interact with your repository:
+
+1. Go to GitHub → **Settings** → **Developer settings** → **Personal access tokens** → **Tokens (classic)**
+2. Click **Generate new token** → **Generate new token (classic)**
+3. Configure:
+   - **Note**: `Sveltia CMS`
+   - **Expiration**: No expiration (or your preference)
+   - **Scopes**: Select `repo` (full control of repositories)
+4. Click **Generate token**
+5. **Copy the token** - you'll need it in the next step
+
+### 4. Configure Cloudflare Pages Environment Variables
 
 1. Go to your Cloudflare Pages dashboard
 2. Select your `frostlabs-site` project
@@ -43,6 +56,7 @@ You need to create an OAuth2/OIDC Provider and Application in Authentik:
    - `OAUTH_CLIENT_ID`: Your Client ID from Authentik
    - `OAUTH_CLIENT_SECRET`: Your Client Secret from Authentik
    - `AUTHENTIK_URL`: `https://auth.frostlabs.me`
+   - `GITHUB_TOKEN`: Your GitHub Personal Access Token from step 3
 
 ## Accessing the CMS
 
@@ -67,17 +81,16 @@ The CMS provides an interface to:
 
 All changes are committed directly to your GitHub repository, which triggers a Cloudflare Pages rebuild automatically.
 
-## GitHub Token for API Access
+## How Authentication Works
 
-In addition to Authentik OAuth, you'll need a GitHub Personal Access Token (PAT) for the CMS to interact with your repository:
+This CMS uses a two-layer authentication approach:
 
-1. Go to GitHub → **Settings** → **Developer settings** → **Personal access tokens** → **Tokens (classic)**
-2. Click **Generate new token** → **Generate new token (classic)**
-3. Configure:
-   - **Note**: `Sveltia CMS`
-   - **Expiration**: Choose your preference
-   - **Scopes**: Select `repo` (full control of private repositories)
-4. Click **Generate token**
-5. **Copy the token** - you'll use this to authenticate in the CMS
+1. **Authentik OAuth** - Controls who can access the CMS (user authentication)
+2. **GitHub Token** - Allows the CMS to read/write to your repository (API access)
 
-Note: The OAuth flow authenticates you as a user, but the GitHub token is what allows the CMS to make commits to your repository on your behalf.
+When you log in:
+- You authenticate via Authentik (proves your identity)
+- If successful, the system provides the GitHub token to the CMS
+- The CMS uses that token to interact with your GitHub repository
+
+This means Authentik controls access, but all authenticated users share the same GitHub token for repository operations.

@@ -63,6 +63,14 @@ export async function onRequestGet(context) {
 
   const userInfo = await userInfoResponse.json();
 
+  // User authenticated successfully via Authentik
+  // Now provide the GitHub token for repository access
+  const githubToken = env.GITHUB_TOKEN;
+
+  if (!githubToken) {
+    return new Response('GitHub token not configured', { status: 500 });
+  }
+
   // Return HTML page that sends message to CMS
   const html = `
 <!DOCTYPE html>
@@ -78,7 +86,7 @@ export async function onRequestGet(context) {
         console.log("Received message:", e);
         window.opener.postMessage(
           'authorization:github:success:${JSON.stringify({
-            token: accessToken,
+            token: githubToken,
             provider: 'github'
           }).replace(/'/g, "\\'")}',
           e.origin
