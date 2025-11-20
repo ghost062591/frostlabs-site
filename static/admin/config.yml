@@ -2,8 +2,6 @@ backend:
   name: github
   repo: ghost062591/frostlabs-site
   branch: main
-  base_url: https://blog.frostlabs.me
-  auth_endpoint: /api/auth
 
 # Publish mode - editorial workflow allows draft/review/publish workflow
 # publish_mode: editorial_workflow
