@@ -19,8 +19,8 @@ title = "FrostLabs"
   email = "john.allisonwin@outlook.com"
   image = "logos/Author-Logo.png"
 #   imageQuality = 96
-  headline = "I'm only human"
-#   bio = "A little bit about you"
+  headline = "Because ADHD"
+#   bio = "I am a husband and father. I am an amateur photographer and homelabber. "
   links = [
     { facebook = "https://facebook.com/johnathan.allison.5" },
   ]
