@@ -60,6 +60,9 @@ export async function onRequestGet(context) {
     provider: 'github'
   });
 
+  // Escape the JSON for safe embedding in JavaScript string
+  const escapedData = messageData.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+
   const html = `<!DOCTYPE html>
 <html>
 <head>
@@ -68,7 +71,7 @@ export async function onRequestGet(context) {
     (function() {
       function receiveMessage(event) {
         window.opener.postMessage(
-          "authorization:github:success:" + ${messageData},
+          'authorization:github:success:${escapedData}',
           event.origin
         );
         window.removeEventListener("message", receiveMessage, false);
