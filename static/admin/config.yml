@@ -14,77 +14,78 @@ public_folder: "/images/uploads"
 
 # Collections define the structure for different content types
 collections:
-  # Blog posts
-  - name: "blog"
-    label: "Blog Posts"
-    folder: "content/blog"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "text", required: false}
-      - {label: "Tags", name: "tags", widget: "list", required: false}
-      - {label: "Show Table of Contents", name: "showTableOfContents", widget: "boolean", default: false, required: false}
-      - {label: "Draft", name: "draft", widget: "boolean", default: false, required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+# Blog posts
+- name: "blog"
+  label: "Blog Posts"
+  folder: "content/blog"
+  create: true
+  slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+  fields:
+  - { label: "Title", name: "title", widget: "string" }
+  - { label: "Publish Date", name: "date", widget: "datetime" }
+  - { label: "Description", name: "description", widget: "text", required: false }
+  - { label: "Tags", name: "tags", widget: "list", required: false }
+  - { label: "Show Table of Contents", name: "showTableOfContents", widget: "boolean", default: false, required: false }
+  - { label: "Draft", name: "draft", widget: "boolean", default: false, required: false }
+  - { label: "Body", name: "body", widget: "markdown" }
 
-  # House project posts
-  - name: "house"
-    label: "House Project"
-    folder: "content/house"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "text", required: false}
-      - {label: "Tags", name: "tags", widget: "list", required: false}
-      - {label: "Show Table of Contents", name: "showTableOfContents", widget: "boolean", default: false, required: false}
-      - {label: "Draft", name: "draft", widget: "boolean", default: false, required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+# House project posts
+- name: "house"
+  label: "House Project"
+  folder: "content/house"
+  create: true
+  slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+  fields:
+  - { label: "Title", name: "title", widget: "string" }
+  - { label: "Publish Date", name: "date", widget: "datetime" }
+  - { label: "Description", name: "description", widget: "text", required: false }
+  - { label: "Tags", name: "tags", widget: "list", required: false }
+  - { label: "Show Table of Contents", name: "showTableOfContents", widget: "boolean", default: false, required: false }
+  - { label: "Draft", name: "draft", widget: "boolean", default: false, required: false }
+  - { label: "Body", name: "body", widget: "markdown" }
 
-  # Homelab posts
-  - name: "homelab"
-    label: "Homelab"
-    folder: "content/homelab"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "text", required: false}
-      - {label: "Tags", name: "tags", widget: "list", required: false}
-      - {label: "Show Table of Contents", name: "showTableOfContents", widget: "boolean", default: false, required: false}
-      - {label: "Draft", name: "draft", widget: "boolean", default: false, required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+# Homelab posts
+- name: "homelab"
+  label: "Homelab"
+  folder: "content/homelab"
+  create: true
+  slug: "{{slug}}"
+  fields:
+  - { label: "Title", name: "title", widget: "string" }
+  - { label: "Publish Date", name: "date", widget: "datetime" }
+  - { label: "Description", name: "description", widget: "text", required: false }
+  - { label: "Tags", name: "tags", widget: "list", required: false }
+  - { label: "Show Table of Contents", name: "showTableOfContents", widget: "boolean", default: false, required: false }
+  - { label: "Draft", name: "draft", widget: "boolean", default: false, required: false }
+  - { label: "Body", name: "body", widget: "markdown" }
 
-  # Projects
-  - name: "projects"
-    label: "Projects"
-    folder: "content/projects"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "text", required: false}
-      - {label: "Tags", name: "tags", widget: "list", required: false}
-      - {label: "Show Table of Contents", name: "showTableOfContents", widget: "boolean", default: false, required: false}
-      - {label: "Draft", name: "draft", widget: "boolean", default: false, required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+# Projects
+- name: "projects"
+  label: "Projects"
+  folder: "content/projects"
+  create: true
+  slug: "{{slug}}"
+  fields:
+  - { label: "Title", name: "title", widget: "string" }
+  - { label: "Publish Date", name: "date", widget: "datetime" }
+  - { label: "Description", name: "description", widget: "text", required: false }
+  - { label: "Tags", name: "tags", widget: "list", required: false }
+  - { label: "Show Table of Contents", name: "showTableOfContents", widget: "boolean", default: false, required: false }
+  - { label: "Draft", name: "draft", widget: "boolean", default: false, required: false }
+  - { label: "Body", name: "body", widget: "markdown" }
 
-  # Frostlabs
-  - name: "frostlabs"
-    label: "Frostlabs"
-    folder: "content/frostlabs"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "text", required: false}
-      - {label: "Tags", name: "tags", widget: "list", required: false}
-      - {label: "Show Table of Contents", name: "showTableOfContents", widget: "boolean", default: false, required: false}
-      - {label: "Draft", name: "draft", widget: "boolean", default: false, required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+# Frostlabs
+- name: "frostlabs"
+  label: "Frostlabs"
+  folder: "content/frostlabs"
+  create: true
+  slug: "{{slug}}"
+  fields:
+  - { label: "Title", name: "title", widget: "string" }
+  - { label: "Publish Date", name: "date", widget: "datetime" }
+  - { label: "Description", name: "description", widget: "text", required: false }
+  - { label: "Tags", name: "tags", widget: "list", required: false }
+  - { label: "Show Table of Contents", name: "showTableOfContents", widget: "boolean", default: false, required: false }
+  - { label: "Draft", name: "draft", widget: "boolean", default: false, required: false }
+  - { label: "Type", name: "type", widget: "select:", options: [ "New Service", "Update Service", "New Node", "Update Node" ], required: false }
+  - { label: "Body", name: "body", widget: "markdown" }
