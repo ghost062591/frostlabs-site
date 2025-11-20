@@ -87,5 +87,5 @@ collections:
   - { label: "Tags", name: "tags", widget: "list", required: false }
   - { label: "Show Table of Contents", name: "showTableOfContents", widget: "boolean", default: false, required: false }
   - { label: "Draft", name: "draft", widget: "boolean", default: false, required: false }
-  - { label: "Type", name: "type", widget: "select:", options: [ "New Service", "Update Service", "New Node", "Update Node" ], required: false }
+  - { label: "Type", name: "type", widget: "select", options: [ "New Service", "Update Service", "New Node", "Update Node" ], required: false }
   - { label: "Body", name: "body", widget: "markdown" }
