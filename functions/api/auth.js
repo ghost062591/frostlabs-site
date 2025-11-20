@@ -24,11 +24,14 @@ export async function onRequestGet(context) {
     authUrl.searchParams.set('scope', 'repo,user');
     authUrl.searchParams.set('state', state);
 
-    // Store state in cookie for verification
-    const response = Response.redirect(authUrl.toString(), 302);
-    response.headers.set('Set-Cookie', `oauth_state=${state}; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=600`);
-
-    return response;
+    // Store state in cookie for verification and redirect
+    return new Response(null, {
+      status: 302,
+      headers: {
+        'Location': authUrl.toString(),
+        'Set-Cookie': `oauth_state=${state}; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=600`
+      }
+    });
   } catch (error) {
     return new Response(`Error in auth endpoint: ${error.message}`, {
       status: 500,
