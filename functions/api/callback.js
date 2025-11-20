@@ -19,24 +19,25 @@ export async function onRequestGet(context) {
     return new Response('Invalid state parameter', { status: 400 });
   }
 
-  // Exchange code for token
-  const clientId = env.OAUTH_CLIENT_ID;
-  const clientSecret = env.OAUTH_CLIENT_SECRET;
-  const authentikUrl = env.AUTHENTIK_URL || 'https://auth.frostlabs.me';
-  const redirectUri = `${url.origin}/api/callback`;
+  // Exchange code for GitHub token
+  const clientId = env.GITHUB_CLIENT_ID;
+  const clientSecret = env.GITHUB_CLIENT_SECRET;
 
-  const tokenUrl = `${authentikUrl}/application/o/token/`;
+  if (!clientId || !clientSecret) {
+    return new Response('GitHub OAuth not configured', { status: 500 });
+  }
+
+  const tokenUrl = 'https://github.com/login/oauth/access_token';
   const tokenResponse = await fetch(tokenUrl, {
     method: 'POST',
     headers: {
-      'Content-Type': 'application/x-www-form-urlencoded',
+      'Accept': 'application/json',
+      'Content-Type': 'application/json',
     },
-    body: new URLSearchParams({
-      grant_type: 'authorization_code',
-      code: code,
-      redirect_uri: redirectUri,
+    body: JSON.stringify({
       client_id: clientId,
       client_secret: clientSecret,
+      code: code,
     }),
   });
 
@@ -47,58 +48,39 @@ export async function onRequestGet(context) {
   }
 
   const tokenData = await tokenResponse.json();
-  const accessToken = tokenData.access_token;
-
-  // Get user info
-  const userInfoUrl = `${authentikUrl}/application/o/userinfo/`;
-  const userInfoResponse = await fetch(userInfoUrl, {
-    headers: {
-      'Authorization': `Bearer ${accessToken}`,
-    },
-  });
-
-  if (!userInfoResponse.ok) {
-    return new Response('Failed to get user info', { status: 500 });
-  }
-
-  const userInfo = await userInfoResponse.json();
-
-  // User authenticated successfully via Authentik
-  // Now provide the GitHub token for repository access
-  const githubToken = env.GITHUB_TOKEN;
+  const githubToken = tokenData.access_token;
 
   if (!githubToken) {
-    return new Response('GitHub token not configured', { status: 500 });
+    return new Response('Failed to get access token', { status: 500 });
   }
 
-  // Return HTML page that sends message to CMS
+  // Return success message that CMS expects
+  const message = {
+    token: githubToken,
+    provider: 'github'
+  };
+
   const html = `
 <!DOCTYPE html>
 <html>
 <head>
   <title>Authorizing...</title>
-</head>
-<body>
-  <p>Authorization successful. Redirecting...</p>
   <script>
     (function() {
-      function receiveMessage(e) {
-        console.log("Received message:", e);
+      function receiveMessage(event) {
         window.opener.postMessage(
-          'authorization:github:success:${JSON.stringify({
-            token: githubToken,
-            provider: 'github'
-          }).replace(/'/g, "\\'")}',
-          e.origin
+          'authorization:github:success:${JSON.stringify(message).replace(/'/g, "\\'")}',
+          event.origin
         );
         window.removeEventListener("message", receiveMessage, false);
       }
       window.addEventListener("message", receiveMessage, false);
-
-      console.log("Sending init message");
       window.opener.postMessage("authorizing:github", "*");
     })();
   </script>
+</head>
+<body>
+  <p>Authorization successful. Closing...</p>
 </body>
 </html>
 `;
@@ -106,7 +88,7 @@ export async function onRequestGet(context) {
   return new Response(html, {
     headers: {
       'Content-Type': 'text/html',
-      'Set-Cookie': 'oauth_state=; Path=/; Max-Age=0', // Clear state cookie
+      'Set-Cookie': 'oauth_state=; Path=/; Max-Age=0',
     },
   });
 }

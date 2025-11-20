@@ -2,20 +2,22 @@ export async function onRequestGet(context) {
   const { request, env } = context;
   const url = new URL(request.url);
 
-  // Get environment variables
-  const clientId = env.OAUTH_CLIENT_ID;
-  const authentikUrl = env.AUTHENTIK_URL || 'https://auth.frostlabs.me';
+  // Get GitHub OAuth App credentials from environment
+  const clientId = env.GITHUB_CLIENT_ID;
+  if (!clientId) {
+    return new Response('GitHub OAuth not configured', { status: 500 });
+  }
+
   const redirectUri = `${url.origin}/api/callback`;
 
   // Generate random state for CSRF protection
   const state = crypto.randomUUID();
 
-  // Build authorization URL
-  const authUrl = new URL(`${authentikUrl}/application/o/authorize/`);
+  // Build GitHub authorization URL
+  const authUrl = new URL('https://github.com/login/oauth/authorize');
   authUrl.searchParams.set('client_id', clientId);
   authUrl.searchParams.set('redirect_uri', redirectUri);
-  authUrl.searchParams.set('response_type', 'code');
-  authUrl.searchParams.set('scope', 'openid profile email');
+  authUrl.searchParams.set('scope', 'repo,user');
   authUrl.searchParams.set('state', state);
 
   // Store state in cookie for verification

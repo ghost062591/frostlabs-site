@@ -1,10 +1,30 @@
 # Sveltia CMS Setup with GitHub
 
-This site uses Sveltia CMS for content management, authenticated via GitHub.
+This site uses Sveltia CMS for content management, authenticated via GitHub OAuth.
 
 ## Setup Instructions
 
-The CMS uses GitHub's built-in OAuth for authentication. Anyone who can access your GitHub repository can use the CMS.
+### 1. Create a GitHub OAuth App
+
+1. Go to GitHub → **Settings** → **Developer settings** → **OAuth Apps**
+2. Click **New OAuth App**
+3. Configure:
+   - **Application name**: `FrostLabs Blog CMS`
+   - **Homepage URL**: `https://blog.frostlabs.me`
+   - **Authorization callback URL**: `https://blog.frostlabs.me/api/callback`
+4. Click **Register application**
+5. **Copy the Client ID**
+6. Click **Generate a new client secret** and **copy the Client Secret**
+
+### 2. Configure Cloudflare Pages Environment Variables
+
+1. Go to your Cloudflare Pages dashboard
+2. Select your `frostlabs-site` project
+3. Go to **Settings** → **Environment variables**
+4. Add these variables (for **Production** environment):
+   - `GITHUB_CLIENT_ID`: Your OAuth App Client ID
+   - `GITHUB_CLIENT_SECRET`: Your OAuth App Client Secret
+5. After adding variables, redeploy your site
 
 ## Accessing the CMS
 
