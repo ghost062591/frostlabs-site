@@ -55,13 +55,12 @@ export async function onRequestGet(context) {
   }
 
   // Return success message that CMS expects
-  const message = {
+  const messageData = JSON.stringify({
     token: githubToken,
     provider: 'github'
-  };
+  });
 
-  const html = `
-<!DOCTYPE html>
+  const html = `<!DOCTYPE html>
 <html>
 <head>
   <title>Authorizing...</title>
@@ -69,7 +68,7 @@ export async function onRequestGet(context) {
     (function() {
       function receiveMessage(event) {
         window.opener.postMessage(
-          'authorization:github:success:${JSON.stringify(message).replace(/'/g, "\\'")}',
+          "authorization:github:success:" + ${messageData},
           event.origin
         );
         window.removeEventListener("message", receiveMessage, false);
@@ -82,8 +81,7 @@ export async function onRequestGet(context) {
 <body>
   <p>Authorization successful. Closing...</p>
 </body>
-</html>
-`;
+</html>`;
 
   return new Response(html, {
     headers: {
